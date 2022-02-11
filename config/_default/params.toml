@@ -1,28 +1,26 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Hyas"
-titleSeparator = "-"
-titleAddition = "Modern Hugo Starter"
-description = "Hyas is a Hugo starter helping you build modern websites that are secure, fast, and SEO-ready — by default."
+title = "Band Horses"
+titleSeparator = "|"
+titleAddition = "The Official Website of Band Horses | Not Just Pictures!"
+description = "The Band Horses are collectible musical NFTs. There are 4444 of them tapping on the blockchain."
 
 ## Open Graph
 images = ["hyas.png"]
 ogLocale = "en_US"
-titleHome = "Hyas Hugo Starter"
+titleHome = "Band Horses"
 
 ## Twitter Cards
-twitterSite = "@gethyas"
-twitterCreator = "@henkverlinde"
+twitterSite = "@bandhorsesNFT"
+twitterCreator = "@bandhorsesNFT"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Hyas"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaName = "bandhorses"
+schemaAuthor = "Band Horse"
+schemaAuthorTwitter = "https://twitter.com/bandhorsesNFT"
 schemaLocale = "en-US"
 schemaLogo = "logo-hyas.png"
 schemaLogoWidth = 512
@@ -30,28 +28,28 @@ schemaLogoHeight = 512
 schemaImage = "hyas.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/gethyas"
+schemaTwitter = "https://twitter.com/bandhorsesNFT"
 schemaLinkedIn = ""
 schemaGitHub = "https://github.com/h-enk/hyas"
 
 ## Chrome Browser
-themeColor = "#fff"
+themeColor = "#e3e3e3"
 
 # Images
 quality = 85
-bgColor = "#fff"
+bgColor = "#e1f2fe"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 smallLimit = "320"
 
 # Footer
-footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://gethyas.com/\">Hyas</a>"
+footer = " "
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = " "
 
 # Alert
 alert = true
 alertDismissable = true
-alertText = "Deliver web projects 10x faster. <a class=\"alert-link\" href=\"https://www.netlify.com/whitepaper/\" target=\"_blank\" rel=\"noopener\">Get the free enterprise paper →</a>"
+alertText = "Early access to Band Horses NFT sale. <a class=\"alert-link\" href=\"https://form.jotform.com/220403084309042/\" target=\"_blank\" rel=\"noopener\">Get me listed →</a>"

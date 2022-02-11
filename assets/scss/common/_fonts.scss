@@ -1,11 +1,8 @@
-/* inter-500 - latin */
+/* Teko-400 - latin */
 @font-face {
-  font-family: Inter;
+  font-family: "Teko", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-display: swap;
-  src:
-    local("Inter"),
-    url("/fonts/vendor/inter/inter-v2-latin-500.woff2") format("woff2"),
-    url("/fonts/vendor/inter/inter-v2-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local("Teko"), url("/fonts/vendor/Teko/Teko-Medium.ttf") format("ttf");
 }

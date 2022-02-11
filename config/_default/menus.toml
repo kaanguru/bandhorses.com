@@ -1,14 +1,55 @@
 [[main]]
-  name = "GitHub"
-  url = "https://github.com/h-enk/hyas"
-  weight = 10
+name = "Utility"
+url = "/"
+weight = 5
+[[main]]
+name = "Traits"
+url = "/"
+weight = 10
+[[main]]
+name = "FAQ"
+url = "/"
+weight = 15
+[[main]]
+name = "Tokenomics"
+url = "/"
+weight = 20
+[[main]]
+name = "Tour Dates"
+url = "/"
+weight = 30
+
 
 [[social]]
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/in/henkverlinde/"
-  weight = 20
+name = "Linktr.ee"
+url = "https://linktr.ee/bandhorses"
+weight = 10
 
 [[social]]
-  name = "Twitter"
-  url = "https://twitter.com/henkverlinde"
-  weight = 30
+name = "Twitter"
+url = "https://twitter.com/bandhorsesNFT"
+weight = 20
+[[social]]
+name = "Discord"
+url = "https://discord.gg/UyaJspUaSZ"
+weight = 30
+[[social]]
+name = "Blog"
+url = "https://medium.com/@bandhorses"
+weight = 40
+[[social]]
+name = "pinterest"
+url = "https://www.pinterest.com/bandhorses/"
+weight = 50
+[[social]]
+name = "Pinterest"
+url = "https://www.pinterest.com/bandhorses/"
+weight = 60
+[[social]]
+name = "d.tube"
+url = "https://d.tube/c/bandhorses00"
+weight = 60
+[[social]]
+name = "Vimeo"
+url = "https://vimeo.com/user165460933"
+weight = 60
