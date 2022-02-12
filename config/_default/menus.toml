@@ -1,6 +1,6 @@
 [[main]]
 name = "Utility"
-url = "/"
+url = "#utility"
 weight = 5
 [[main]]
 name = "Traits"
@@ -12,11 +12,11 @@ url = "/"
 weight = 15
 [[main]]
 name = "Tokenomics"
-url = "/"
+url = "/tokenomics"
 weight = 20
 [[main]]
-name = "Tour Dates"
-url = "/"
+name = "Tour"
+url = "/tour-dates"
 weight = 30
 
 

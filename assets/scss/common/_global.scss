@@ -16,6 +16,9 @@ h6,
 .h5,
 .h6 {
   margin: 2rem 0 1rem;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
 }
 
 @include media-breakpoint-up(md) {
@@ -72,4 +75,27 @@ h6,
 
 .monospace {
   font-family: $font-family-code;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: $blue;
+    color: white;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  td,
+  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
 }

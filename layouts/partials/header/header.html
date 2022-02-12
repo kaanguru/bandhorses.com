@@ -1,16 +1,74 @@
-{{ if .Site.Params.alert -}}
-  {{ partial "header/alert.html" . }}
-{{ end -}}
-
-<header class="navbar navbar-light">
+<header>
   <div class="container">
-    <a class="navbar-brand monospace" href="{{ "/" | absURL }}">{{ .Site.Params.Title }}</a>
-    <div class="ms-auto">
-    {{ range .Site.Menus.main }}
-      <span class="navbar-text">
-        <a href="{{ .URL }}">{{- .Name -}}</a>
-      </span>
-    {{ end }}
-    </div>
+      <div class="row">
+          <div class="col d-lg-flex">
+              <div id="logo">
+                  <a href="/">
+                      <img src="/images/logo-header.png" alt="Band Horses Logo"
+                          class="d-block mx-auto px-2 py-1" height="80" />
+                  </a>
+              </div>
+          </div>
+          <nav id="navbar" class="col sticky-top navbar navbar-expand-lg navbar-light ">
+            <button id="menuToggler" class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#primary-menu" aria-controls="primary-menu" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span id="menuIkonum" class="navbar-toggler-icon"></span>
+                <i id="kapatIkonum" class="bi bi-x-square "></i>
+            </button>
+            {{ $currentPage := . }}
+            <div class="collapse navbar-collapse" id="primary-menu">
+                <ul class="navbar-nav container">
+                    {{ range site.Menus.main }}
+                    {{ if .HasChildren }}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"> {{ .Name }} </a>
+                        <div class="dropdown-menu">
+                            {{ range .Children }}
+                            {{- $page_url:= $currentPage.Permalink | absLangURL }}
+                            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) |
+                            absLangURL }}
+                            {{- $sonuc := eq $menu_item_url $page_url }}
+                            <a class="nav-link dropdown-item {{ if $sonuc }}active{{ end }}" title="{{ .Name}}"
+                                href="{{ .URL  }}">{{
+                                .Name
+                                }}</a>
+                            {{ end }}
+                        </div>
+                    </li>
+                    {{ else }}
+                    <li class="nav-item">
+                        {{- $page_url:= $currentPage.Permalink | absLangURL }} {{- $menu_item_url := (cond
+                        (strings.HasSuffix
+                        .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }} {{- $sonuc := eq $menu_item_url
+                        $page_url }}
+                        <a class="nav-link {{ if $sonuc }}active{{ end }} " title="{{ .Name}}" href="{{ .URL }}">{{
+                            .Name }}</a>
+                    </li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+          </nav>
+      </div>
   </div>
 </header>
+
+<script>
+  menuToggler.onclick = () => {
+      showIcon = !showIcon
+      if (showIcon === true) {
+          menuIkonum.style.display = "inline-block"
+          kapatIkonum.style.display = "none"
+      } else {
+          menuIkonum.style.display = "none"
+          kapatIkonum.style.display = "inline-block"
+          kapatIkonum.classList.add('animate__animated', 'animate__bounce')
+          menuToggler.style.border = "none"
+      }
+
+  };
+  let showIcon = true
+  kapatIkonum.style.display = "none"
+</script>
