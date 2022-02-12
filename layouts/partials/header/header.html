@@ -1,11 +1,14 @@
 <header>
   <div class="container">
-      <div class="row">
-          <div class="col d-lg-flex">
-              <div id="logo">
+      <div class="row d-lg-flex  justify-content-between">
+          <div id="logo" class="col ">
+              <div >
                   <a href="/">
-                      <img src="/images/logo-header.png" alt="Band Horses Logo"
-                          class="d-block mx-auto px-2 py-1" height="80" />
+                      <img src="/images/two-line.png" alt="Band Horses Logo"
+                          class="d-md-block d-lg-none p-2"   />
+                      <img src="/images/band-horses-logo.png" alt="Band Horses Logo"
+                          class="d-none d-lg-block pt-3"   />
+                      
                   </a>
               </div>
           </div>
@@ -21,8 +24,8 @@
                 <ul class="navbar-nav container">
                     {{ range site.Menus.main }}
                     {{ if .HasChildren }}
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link px-4 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false"> {{ .Name }} </a>
                         <div class="dropdown-menu">
                             {{ range .Children }}
@@ -30,7 +33,7 @@
                             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) |
                             absLangURL }}
                             {{- $sonuc := eq $menu_item_url $page_url }}
-                            <a class="nav-link dropdown-item {{ if $sonuc }}active{{ end }}" title="{{ .Name}}"
+                            <a class="nav-link px-4 dropdown-item {{ if $sonuc }}active{{ end }}" title="{{ .Name}}"
                                 href="{{ .URL  }}">{{
                                 .Name
                                 }}</a>
@@ -38,12 +41,12 @@
                         </div>
                     </li>
                     {{ else }}
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         {{- $page_url:= $currentPage.Permalink | absLangURL }} {{- $menu_item_url := (cond
                         (strings.HasSuffix
                         .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }} {{- $sonuc := eq $menu_item_url
                         $page_url }}
-                        <a class="nav-link {{ if $sonuc }}active{{ end }} " title="{{ .Name}}" href="{{ .URL }}">{{
+                        <a class="nav-link px-4 {{ if $sonuc }}active{{ end }} " title="{{ .Name}}" href="{{ .URL }}">{{
                             .Name }}</a>
                     </li>
                     {{ end }}
@@ -61,11 +64,12 @@
       if (showIcon === true) {
           menuIkonum.style.display = "inline-block"
           kapatIkonum.style.display = "none"
-      } else {
-          menuIkonum.style.display = "none"
-          kapatIkonum.style.display = "inline-block"
-          kapatIkonum.classList.add('animate__animated', 'animate__bounce')
-          menuToggler.style.border = "none"
+          logo.style.display = "block"
+        } else {
+            menuIkonum.style.display = "none"
+            kapatIkonum.style.display = "inline-block"
+            menuToggler.style.border = "none"
+            logo.style.display = "none"
       }
 
   };

@@ -3,19 +3,26 @@ name = "Utility"
 url = "#utility"
 weight = 5
 [[main]]
+parent = "Utility"
 name = "Traits"
 url = "/"
 weight = 10
 [[main]]
+parent = "Utility"
 name = "FAQ"
 url = "/"
 weight = 15
 [[main]]
-name = "Tokenomics"
+name = "WAGMI"
 url = "/tokenomics"
 weight = 20
 [[main]]
-name = "Tour"
+parent = "WAGMI"
+name = "Frenz responsibility"
+url = "/tokenomics"
+weight = 20
+[[main]]
+name = "Fun Tour"
 url = "/tour-dates"
 weight = 30
 

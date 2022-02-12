@@ -1,15 +1,15 @@
 // Color system
 
-$blue: #5da271;
-$white: #eff7fd;
-$black: #1c2826;
-$gray-darker: #626987;
+$green: #5da271;
+$white: #fefeff;
+$black: #050505;
+$gray-darker: #55596d;
 $gray-dark: #898989;
 $gray: #dfe2e5;
 $gray-200: #f6f8fa;
-$gray-light: #e1f2fe;
-$blue-dark: #23590e;
-$primary: $blue;
+$gray-light: #ebf4fa;
+$green-dark: #1b420c;
+$primary: $green;
 
 // Options
 //
@@ -34,7 +34,7 @@ $variable-prefix: bs-;
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+$font-family-sans-serif: "Teko", system-ui, -apple-system, "Segoe UI", Roboto,
   "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-monospace: "Tulpen One", Menlo, Monaco, Consolas, "Liberation Mono",
@@ -49,7 +49,7 @@ $font-size-md: $font-size-base * 1.125;
 $font-size-sm: $font-size-base * 0.875;
 $font-weight-bold: 500;
 $line-height-base: 1.5;
-$headings-font-family: "Teko", $font-family-sans-serif;
+$headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 500;
 $headings-line-height: 1.3;
 

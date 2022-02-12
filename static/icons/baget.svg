@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="icon icon-tabler icon-tabler-menu"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   stroke-width="2"
+   stroke="currentColor"
+   fill="none"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="baget.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12">
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect1418"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.000408163"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="10.24"
+     inkscape:cx="26.464844"
+     inkscape:cy="3.6621094"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <path
+     stroke="none"
+     d="M0 0h24v24H0z"
+     id="path2" />
+  <g
+     id="g2756"
+     transform="translate(-1.00546,0.5859375)">
+    <line
+       x1="5.5087628"
+       y1="16.966747"
+       x2="22.596382"
+       y2="16.966747"
+       id="line6"
+       style="stroke-width:1.43451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal" />
+    <line
+       x1="10.669052"
+       y1="16.966747"
+       x2="22.424015"
+       y2="16.966747"
+       id="line6-1"
+       style="stroke-width:2.1684;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:0.720562;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path851-6"
+       cx="3.897759"
+       cy="16.957247"
+       rx="1.034773"
+       ry="0.4995445" />
+  </g>
+  <g
+     id="g2756-2"
+     transform="translate(-1.00546,-10.546875)">
+    <line
+       x1="5.5087628"
+       y1="16.966747"
+       x2="22.596382"
+       y2="16.966747"
+       id="line6-7"
+       style="stroke-width:1.43451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal" />
+    <line
+       x1="10.669052"
+       y1="16.966747"
+       x2="22.424015"
+       y2="16.966747"
+       id="line6-1-1"
+       style="stroke-width:2.1684;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:0.720562;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path851-6-3"
+       cx="3.897759"
+       cy="16.957247"
+       rx="1.034773"
+       ry="0.4995445" />
+  </g>
+</svg>
