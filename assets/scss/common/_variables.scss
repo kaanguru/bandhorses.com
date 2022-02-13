@@ -16,7 +16,12 @@ $light-blue: #98d2eb;
 $asparagus: #7cae7a;
 $independence: #484d64;
 $smoky-black: #100804;
-
+$bnh-gradient: linear-gradient(
+  180deg,
+  rgba(142, 209, 169, 1) 0%,
+  rgba(93, 162, 113, 1) 66%,
+  rgba(48, 64, 63, 1) 100%
+);
 // Options
 //
 // Quickly modify global styling by enabling or disabling optional features.

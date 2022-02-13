@@ -1,18 +1,4 @@
-.banner .nav li {
-  @extend .nav-item;
-}
-
-.banner .nav a {
-  @extend .nav-link;
-}
-
 @include media-breakpoint-down(lg) {
-  .nav-link {
-    font-weight: 700;
-    padding: 1.5rem 1rem;
-    border-bottom: 1px solid $black;
-    font-size: 1.3rem;
-  }
 }
 
 @include media-breakpoint-up(md) {

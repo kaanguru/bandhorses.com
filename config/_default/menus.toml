@@ -19,7 +19,7 @@ weight = 20
 [[main]]
 parent = "WAGMI"
 name = "Frenz responsibility"
-url = "/tokenomics"
+url = "/sr"
 weight = 20
 [[main]]
 name = "Fun Tour"

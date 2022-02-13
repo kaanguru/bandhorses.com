@@ -1,28 +1,61 @@
-.navbar {
-  padding-top: 0.5rem;
+#navbar {
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  padding: 0rem;
   justify-content: end;
+  align-items: flex-start;
+  .navbar-toggler {
+    padding: 0.2rem 0.2rem;
+    font-size: 1.3rem;
+    line-height: 1;
+    background-color: transparent;
+    border: none;
+    transition: box-shadow 1s ease-in-out;
+    margin-bottom: -2rem;
+    z-index: 2;
+    .navbar-toggler-icon {
+      background-image: url("/icons/menu_icon.svg");
+    }
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.05rem;
+  }
+  #primary-menu {
+    height: 100vh;
+    width: 100vw;
+    background: url(/images/mobile-background.jpg), #132533;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .navbar-nav {
+      padding: 1rem;
+
+      .nav-link {
+        font-weight: 700;
+        padding: 1.5rem 1rem;
+        border-bottom: 1px solid $light-blue;
+        font-size: 1.3rem;
+        letter-spacing: 0.33rem;
+      }
+      .dropdown-menu {
+        background-color: transparent;
+        border: none;
+
+        .dropdown-item {
+          background-color: transparent;
+          color: $independence;
+          padding-left: 2rem !important;
+        }
+      }
+    }
+  }
 }
-.navbar-light .navbar-toggler-icon {
-  background-image: url("/icons/menu_icon.svg");
-}
-.navbar-toggler {
-  padding: 0.2rem 0.2rem;
-  font-size: 1.3rem;
-  line-height: 1;
-  background-color: transparent;
-  border: none;
-  transition: box-shadow 0.15s ease-in-out;
-}
-.navbar-toggler:focus {
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.05rem;
-}
-#primary-menu {
-  min-width: 270px;
-}
-.dropdown-item.active,
-.dropdown-item:active {
-  text-decoration: none;
-  background-color: transparent;
+
+@include media-breakpoint-up(lg) {
 }

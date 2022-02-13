@@ -3,12 +3,12 @@
   "short_name": "BandHorses",
   "icons": [
     {
-      "src": "/android-ldpi.png",
+      "src": "/icons/android-ldpi.png",
       "sizes": "410x410",
       "type": "image/png"
     },
     {
-      "src": "/android-hdpi.png",
+      "src": "/icons/android-hdpi.png",
       "sizes": "819x819",
       "type": "image/png"
     }
