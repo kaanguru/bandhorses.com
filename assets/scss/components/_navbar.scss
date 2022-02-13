@@ -58,4 +58,25 @@
 }
 
 @include media-breakpoint-up(lg) {
+  #navbar #primary-menu {
+    height: inherit;
+    width: inherit;
+    background: none;
+    .navbar-nav {
+      padding: 0rem;
+      .nav-link {
+        font-size: $font-size-sm;
+        letter-spacing: 0.33rem;
+        border: none;
+      }
+      .dropdown-menu {
+        border: none;
+        .dropdown-item {
+          background-color: transparentize($color: $asparagus, $amount: 0.5);
+          color: $independence;
+          padding-left: 2rem !important;
+        }
+      }
+    }
+  }
 }
