@@ -13,3 +13,15 @@ import 'lazysizes';
 import './assets/js/alert';
 
 
+import { sortboard } from './node_modules/sortboard/dist/sortboard.umd.min.js';
+
+const sb = sortboard({
+    container: '#mylist',
+    selector: 'li',
+})
+
+const onEvent = () => console.log('ok!')
+sb.on('filter', onEvent)
+
+sb.filter('programing front-end')
+// https://codepen.io/joseluisq/pen/kYbMYM
