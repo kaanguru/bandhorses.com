@@ -1,11 +1,13 @@
 header {
-  min-height: 36rem;
+  min-height: 100vh;
+  background-image: url("/images/stage-bg.jpg");
+  background-size: cover;
+  background-position: top, center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 @include media-breakpoint-down(lg) {
 }
 
 @include media-breakpoint-up(md) {
-  header {
-    min-height: 30rem;
-  }
 }

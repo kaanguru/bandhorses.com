@@ -6,7 +6,6 @@
   justify-content: end;
   align-items: flex-start;
   .navbar-toggler {
-    padding: 0.2rem 0.2rem;
     font-size: 1.3rem;
     line-height: 1;
     background-color: transparent;
@@ -24,15 +23,10 @@
     box-shadow: 0 0 0 0.05rem;
   }
   #primary-menu {
-    height: 100vh;
     width: 100vw;
-    background: url(/images/mobile-background.jpg), #132533;
     transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
     .navbar-nav {
       padding: 1rem;
 
@@ -40,7 +34,7 @@
         font-weight: 700;
         padding: 1.5rem 1rem;
         border-bottom: 1px solid $light-blue;
-        font-size: 1.3rem;
+        font-size: $font-size-lg;
         letter-spacing: 0.33rem;
       }
       .dropdown-menu {
@@ -64,17 +58,18 @@
     background: none;
     .navbar-nav {
       padding: 0rem;
+
       .nav-link {
-        font-size: $font-size-sm;
+        font-size: $font-size-md;
         letter-spacing: 0.33rem;
         border: none;
       }
       .dropdown-menu {
         border: none;
+        margin-top: -5vh;
         .dropdown-item {
-          background-color: transparentize($color: $asparagus, $amount: 0.5);
+          background-color: transparentize($color: $alice-blue, $amount: 0.2);
           color: $independence;
-          padding-left: 2rem !important;
         }
       }
     }

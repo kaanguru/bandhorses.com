@@ -4,15 +4,15 @@
           <div id="logo" class="col ">
               <div >
                   <a href="/">
-                      <img src="/images/two-line.png" alt="Band Horses Logo"
-                          class="d-md-block d-lg-none p-2"   />
+                      <img src="/images/logo-header.png" alt="Band Horses Logo"
+                          class="d-md-block d-lg-none p-1" height="65"  />
                       <img src="/images/band-horses-logo.png" alt="Band Horses Logo"
-                          class="d-none d-lg-block pt-3"   />
+                          class="d-none d-lg-block pt-2"   />
                       
                   </a>
               </div>
           </div>
-          <nav id="navbar" class="col sticky-top navbar navbar-expand-lg navbar-light ">
+          <nav id="navbar" class="col navbar navbar-expand-lg navbar-light ">
             <button id="menuToggler" class="navbar-toggler " type="button" data-bs-toggle="collapse"
                 data-bs-target="#primary-menu" aria-controls="primary-menu" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -54,6 +54,14 @@
                 </ul>
             </div>
           </nav>
+          <div id="hero-video" class="text-center">
+              <div class="ratio ratio-16x9 embed-responsive embed-responsive-16by9">
+                    <video class="embed-responsive-item" autoplay muted loop controls>
+                        <source src="/videos/band-horses-video.mp4" type="video/mp4">
+                    </video>
+              </div>
+
+          </div>
       </div>
   </div>
 </header>
@@ -64,12 +72,12 @@
       if (showIcon === true) {
           menuIkonum.style.display = "inline-block";
           kapatIkonum.style.display = "none";
-          logo.style.display = "inline-block";
+          <!-- logo.style.display = "inline-block"; -->
         } else {
             menuIkonum.style.display = "none";
             kapatIkonum.style.display = "inline-block";
             menuToggler.style.border = "none";
-            logo.style.display = "none";
+            <!-- logo.style.display = "none"; -->
       }
 
   };
