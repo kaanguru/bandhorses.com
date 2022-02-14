@@ -1,5 +1,11 @@
+header {
+  min-height: 36rem;
+}
 @include media-breakpoint-down(lg) {
 }
 
 @include media-breakpoint-up(md) {
+  header {
+    min-height: 30rem;
+  }
 }
