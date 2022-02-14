@@ -16,12 +16,33 @@ import './assets/js/alert';
 import { sortboard } from './node_modules/sortboard/dist/sortboard.umd.min.js';
 
 const sb = sortboard({
-    container: '#mylist',
+    container: '#sortlist',
     selector: 'li',
 })
 
-const onEvent = () => console.log('ok!')
-sb.on('filter', onEvent)
+const anchors = children('#filters a')
 
-sb.filter('programing front-end')
-// https://codepen.io/joseluisq/pen/kYbMYM
+anchors.forEach(el => {
+    el.addEventListener(
+        'click',
+        event => {
+            const an = event.target
+
+            if (!an.classList.contains('active')) {
+                const data = an.getAttribute('data-filter')
+                sb.filter(data)
+
+                anchors.forEach(a => {
+                    a.classList.remove('active')
+                })
+                an.classList.add('active')
+            }
+        },
+        false
+    )
+})
+
+function children(selector, parent = document) {
+    return Array.prototype.slice
+        .call(parent.querySelectorAll(selector))
+}
