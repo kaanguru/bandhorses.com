@@ -1,11 +1,38 @@
 <section class="section" id="traits"  >
 
-<p>4 4 4 4 grooves + 288 layers </p>
+<h1>4 4 4 4 grooves + 288 layers </h1>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="input-group mb-3">
+        <span class="input-group-text"><label for="drummer-choice" >Check for your favorite</label></span>
+        <input class="form-control" list="drummer-list" id="drummer-choice" name="drummer-choice" placeholder="Drummer Name"  />
+      </div>
+      <datalist id="drummer-list">
+        {{ range $key, $value := .Site.Data.favoriteDrummer }}
+        <option value="{{ $value.name }}">
+        {{ end }}
+      </datalist>
+    </div>
+    <div class="col">
+      <div class="input-group mb-3">
+        <span class="input-group-text"><label for="drummer-choice">Check Tattoo</label></span>
+        <input class="form-control" list="tattoo-list" id="tattoo-choice" name="tattoo-choice" placeholder="Brand & Musician Name"  />
+      </div>
+      <datalist id="tattoo-list">
+        {{ range $key, $value := .Site.Data.tattoo }}
+        <option value="{{ $value.name }}">
+        {{ end }}
+      </datalist>
+    </div>
+  </div>
+</div>
 
 <nav id="filters" class="nav nav-tabs">
   <p>
     Filter by:
   </p>
+
   <li class="nav-item">
     <a href="javascript:;" data-filter="all">All</a>  
   </li>
