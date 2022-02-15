@@ -12,12 +12,12 @@ import 'lazysizes';
 // global alert
 import './assets/js/alert';
 
-
 import { sortboard } from './node_modules/sortboard/dist/sortboard.umd.min.js';
 
 const sb = sortboard({
     container: '#sortlist',
-    selector: 'li',
+    selector: '.card',
+    gutter: 15,
 })
 
 const anchors = children('#filters a')
