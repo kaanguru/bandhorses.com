@@ -1,0 +1,12 @@
+[
+  { "trait": "80", "name": "80", "percentage": 8, "quantity": 356 },
+  { "trait": "90", "name": "90", "percentage": 9, "quantity": 400 },
+  { "trait": "100", "name": "100", "percentage": 11, "quantity": 489 },
+  { "trait": "110", "name": "110", "percentage": 13, "quantity": 578 },
+  { "trait": "115", "name": "115", "percentage": 15, "quantity": 667 },
+  { "trait": "120", "name": "120", "percentage": 19, "quantity": 844 },
+  { "trait": "125", "name": "125", "percentage": 12, "quantity": 533 },
+  { "trait": "130", "name": "130", "percentage": 9, "quantity": 400 },
+  { "trait": "135", "name": "135", "percentage": 3, "quantity": 133 },
+  { "trait": "140", "name": "140", "percentage": 1, "quantity": 44 }
+]

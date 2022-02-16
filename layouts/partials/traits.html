@@ -1,8 +1,6 @@
 <section class="section" id="traits"  >
-
-<h1>4 4 4 4 grooves + 288 layers </h1>
-
-<div class="container">
+<h1><i class="bi bi-arrow-repeat"></i> 4 4 4 4 grooves  + <i class="bi bi-stack"></i> 288 layers  </h1>
+<div id="searches" class="container">
   <div class="row">
     <div class="col">
       <div class="input-group mb-3">
@@ -30,42 +28,43 @@
 </div>
 
 <nav id="filters" class="nav nav-tabs">
-  <p>
-    Filter by:
-  </p>
 
-  <li class="nav-item">
-    <a href="javascript:;" data-filter="all">All</a>  
-  </li>
-  <li class="nav-item">
-    <a href="javascript:;" data-filter="tempo"> 10 Tempos</a> 
-  </li>
-  <li class="nav-item">
-    <a href="javascript:;" data-filter="speed"> 40 Speeds</a> 
-  </li>
-{{ range $key, $value := .Site.Data.traits }}
-  {{ if ne $value.name "favoriteDrummer" }}
-  {{  if ne $value.name "tattoo"  }}
-  <li class="nav-item">
-    <a href="javascript:;" data-filter="{{- $value.name -}}">  {{ $value.quantity }} {{ humanize  $value.name }}</a>  
-  </li> 
+  <div class="container">
+    <div class="row">
+      <div class=" col">
+        <a href="javascript:;" data-filter="all"><i class="bi bi-funnel-fill"></i>All</a> 
+      </div>
+      <div class=" col">
+          <a href="javascript:;" data-filter="tempo"> 10 Tempos</a> 
+      </div>
+      <div class=" col">
+          <a href="javascript:;" data-filter="speed"> 40 Speeds</a> 
+      </div>
+    </div>
+  </div>
+
+  {{ range $key, $value := .Site.Data.traits }}
+    {{ if ne $value.name "favoriteDrummer" }}
+    {{  if ne $value.name "tattoo"  }}
+    <li class="nav-item">
+      <a href="javascript:;" data-filter="{{- $value.name -}}">  {{ $value.quantity }} {{ humanize  $value.name }}s</a>  
+    </li> 
+    {{ end }}
+    {{ end }}
   {{ end }}
-  {{ end }}
-{{ end }}
 </nav>
 
 <div id="trait-result">
-
   <ul id="sortlist">
     {{ range $key, $value := .Site.Data.background  }}
     {{- $traitName := "background" }}
     <div class="card" data-filter="{{- $traitName }}" >
-      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}">
+      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}s">
       <div class="card-body">
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} Horse</span></li>
-          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
+          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} %</span></li>
         </ul>
       </div>   
     </div>
@@ -74,11 +73,11 @@
     {{ range $key, $value := .Site.Data.coat  }}
     {{- $traitName := "coat" }}
     <div class="card" data-filter="{{- $traitName }}" >
-      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}">
+      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}s">
       <div class="card-body">
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} Horse</span></li>
+          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
           <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
         </ul>
       </div>   
@@ -88,11 +87,11 @@
     {{ range $key, $value := .Site.Data.neck  }}
     {{- $traitName := "neck" }}
     <div class="card" data-filter="{{- $traitName }}" >
-      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}">
+      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}s">
       <div class="card-body">
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} Horse</span></li>
+          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
           <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
         </ul>
       </div>   
@@ -103,11 +102,11 @@
     {{ range $key, $value := .Site.Data.noseColor  }}
     {{- $traitName := "noseColor" }}
     <div class="card" data-filter="{{- $traitName }}" >
-      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}">
+      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}s">
       <div class="card-body">
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} Horse</span></li>
+          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
           <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
         </ul>
       </div>   
@@ -117,11 +116,11 @@
     {{ range $key, $value := .Site.Data.eyeColor  }}
     {{- $traitName := "eyeColor" }}
     <div class="card" data-filter="{{- $traitName }}" >
-      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}">
+      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}s">
       <div class="card-body">
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} Horse</span></li>
+          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
           <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
         </ul>
       </div>   
@@ -131,11 +130,11 @@
     {{ range $key, $value := .Site.Data.forehead  }}
     {{- $traitName := "forehead" }}
     <div class="card" data-filter="{{- $traitName }}" >
-      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}">
+      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}s">
       <div class="card-body">
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} Horse</span></li>
+          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
           <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
         </ul>
       </div>   
@@ -145,11 +144,11 @@
     {{ range $key, $value := .Site.Data.mane  }}
     {{- $traitName := "mane" }}
     <div class="card" data-filter="{{- $traitName }}" >
-      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}">
+      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}s">
       <div class="card-body">
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} Horse</span></li>
+          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
           <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
         </ul>
       </div>   
@@ -159,11 +158,11 @@
     {{ range $key, $value := .Site.Data.emotion  }}
     {{- $traitName := "emotion" }}
     <div class="card" data-filter="{{- $traitName }}" >
-      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}">
+      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}s">
       <div class="card-body">
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} Horse</span></li>
+          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
           <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
         </ul>
       </div>   
@@ -173,11 +172,11 @@
     {{ range $key, $value := .Site.Data.lensFX  }}
     {{- $traitName := "lensFX" }}
     <div class="card" data-filter="{{- $traitName }}" >
-      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}">
+      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}s">
       <div class="card-body">
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} Horse</span></li>
+          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
           <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
         </ul>
       </div>   
@@ -188,11 +187,25 @@
     {{ range $key, $value := .Site.Data.cartoonFX  }}
     {{- $traitName := "cartoonFX" }}
     <div class="card" data-filter="{{- $traitName }}" >
-      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}">
+      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}{{- $value.weight -}}.jpg" class="card-img-top" alt="{{ humanize $value.name }}s">
       <div class="card-body">
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} Horse</span></li>
+          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
+          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+        </ul>
+      </div>   
+    </div>
+    {{ end }}
+
+    {{ range $key, $value := .Site.Data.tempo  }}
+    {{- $traitName := "tempo" }}
+    <div class="card" data-filter="{{- $traitName }}" >
+      <img src="https://via.placeholder.com/150" class="card-img-top" alt="{{ humanize $value.name }}s">
+      <div class="card-body">
+        <p class="card-title">{{ $value.name }} BPM</p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
           <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
         </ul>
       </div>   
@@ -203,7 +216,6 @@
 
 
   </ul>
-
 </div>
 
 </section>
