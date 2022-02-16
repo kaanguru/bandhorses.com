@@ -38,7 +38,7 @@
           <a href="javascript:;" data-filter="tempo"> 10 Tempos</a> 
       </div>
       <div class=" col">
-          <a href="javascript:;" data-filter="speed"> 40 Speeds</a> 
+          <a href="javascript:;" data-filter="speed"> 50 Speeds</a> 
       </div>
     </div>
   </div>
@@ -204,6 +204,19 @@
       <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}.png" class="card-img-top" alt="{{ humanize $value.name }}s">
       <div class="card-body">
         <p class="card-title">{{ $value.name }} BPM</p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
+          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+        </ul>
+      </div>   
+    </div>
+    {{ end }}
+
+    {{ range $key, $value := .Site.Data.speed  }}
+    {{- $traitName := "speed" }}
+    <div class="card" data-filter="{{- $traitName }}" >
+      <div class="card-body">
+        <p class="card-title py-5">{{ $value.name }} km/h </p>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
           <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
