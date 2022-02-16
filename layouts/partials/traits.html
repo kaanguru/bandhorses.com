@@ -57,7 +57,13 @@
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
-          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} %</span></li>
+          {{- if lt $value.percentage 7 }}
+            <li class="list-group-item"><span class="badge bg-danger">{{  $value.percentage }} % </span></li>
+          {{- else if lt $value.percentage 9 }}
+            <li class="list-group-item"><span class="badge bg-warning">{{  $value.percentage }} % </span></li>
+          {{- else }}
+            <li class="list-group-item"><span class="badge bg-success">{{  $value.percentage }} % </span></li>
+          {{- end }}
         </ul>
       </div>   
     </div>
@@ -71,7 +77,13 @@
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
-          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+          {{- if lt $value.percentage 2 }}
+            <li class="list-group-item"><span class="badge bg-danger">{{  $value.percentage }} % </span></li>
+          {{- else if lt $value.percentage 6 }}
+            <li class="list-group-item"><span class="badge bg-warning">{{  $value.percentage }} % </span></li>
+          {{- else }}
+            <li class="list-group-item"><span class="badge bg-success">{{  $value.percentage }} % </span></li>
+          {{- end }}
         </ul>
       </div>   
     </div>
@@ -85,7 +97,13 @@
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
-          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+          {{- if lt $value.percentage 4 }}
+            <li class="list-group-item"><span class="badge bg-danger">{{  $value.percentage }} % </span></li>
+          {{- else if lt $value.percentage 9 }}
+            <li class="list-group-item"><span class="badge bg-warning">{{  $value.percentage }} % </span></li>
+          {{- else }}
+            <li class="list-group-item"><span class="badge bg-success">{{  $value.percentage }} % </span></li>
+          {{- end }}
         </ul>
       </div>   
     </div>
@@ -100,7 +118,13 @@
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
-          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+          {{- if lt $value.percentage 6 }}
+            <li class="list-group-item"><span class="badge bg-danger">{{  $value.percentage }} % </span></li>
+          {{- else if lt $value.percentage 12 }}
+            <li class="list-group-item"><span class="badge bg-warning">{{  $value.percentage }} % </span></li>
+          {{- else }}
+            <li class="list-group-item"><span class="badge bg-success">{{  $value.percentage }} % </span></li>
+          {{- end }}
         </ul>
       </div>   
     </div>
@@ -114,7 +138,13 @@
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
-          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+          {{- if lt $value.percentage 5 }}
+            <li class="list-group-item"><span class="badge bg-danger">{{  $value.percentage }} % </span></li>
+          {{- else if lt $value.percentage 10 }}
+            <li class="list-group-item"><span class="badge bg-warning">{{  $value.percentage }} % </span></li>
+          {{- else }}
+            <li class="list-group-item"><span class="badge bg-success">{{  $value.percentage }} % </span></li>
+          {{- end }}
         </ul>
       </div>   
     </div>
@@ -128,7 +158,13 @@
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
-          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+          {{- if lt $value.percentage 2 }}
+            <li class="list-group-item"><span class="badge bg-danger">{{  $value.percentage }} % </span></li>
+          {{- else if lt $value.percentage 4 }}
+            <li class="list-group-item"><span class="badge bg-warning">{{  $value.percentage }} % </span></li>
+          {{- else }}
+            <li class="list-group-item"><span class="badge bg-success">{{  $value.percentage }} % </span></li>
+          {{- end }}
         </ul>
       </div>   
     </div>
@@ -142,7 +178,13 @@
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
-          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+          {{- if lt $value.percentage 3 }}
+            <li class="list-group-item"><span class="badge bg-danger">{{  $value.percentage }} % </span></li>
+          {{- else if lt $value.percentage 6 }}
+            <li class="list-group-item"><span class="badge bg-warning">{{  $value.percentage }} % </span></li>
+          {{- else }}
+            <li class="list-group-item"><span class="badge bg-success">{{  $value.percentage }} % </span></li>
+          {{- end }}
         </ul>
       </div>   
     </div>
@@ -156,7 +198,13 @@
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
-          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+          {{- if lt $value.percentage 2 }}
+            <li class="list-group-item"><span class="badge bg-danger">{{  $value.percentage }} % </span></li>
+          {{- else if lt $value.percentage 5 }}
+            <li class="list-group-item"><span class="badge bg-warning">{{  $value.percentage }} % </span></li>
+          {{- else }}
+            <li class="list-group-item"><span class="badge bg-success">{{  $value.percentage }} % </span></li>
+          {{- end }}
         </ul>
       </div>   
     </div>
@@ -170,7 +218,13 @@
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
-          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+          {{- if lt $value.percentage 9 }}
+            <li class="list-group-item"><span class="badge bg-danger">{{  $value.percentage }} % </span></li>
+          {{- else if lt $value.percentage 19 }}
+            <li class="list-group-item"><span class="badge bg-warning">{{  $value.percentage }} % </span></li>
+          {{- else }}
+            <li class="list-group-item"><span class="badge bg-success">{{  $value.percentage }} % </span></li>
+          {{- end }}
         </ul>
       </div>   
     </div>
@@ -185,7 +239,13 @@
         <p class="card-title">{{ humanize $value.name }}</p>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
-          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+          {{- if lt $value.percentage 3 }}
+            <li class="list-group-item"><span class="badge bg-danger">{{  $value.percentage }} % </span></li>
+          {{- else if lt $value.percentage 8 }}
+            <li class="list-group-item"><span class="badge bg-warning">{{  $value.percentage }} % </span></li>
+          {{- else }}
+            <li class="list-group-item"><span class="badge bg-success">{{  $value.percentage }} % </span></li>
+          {{- end }}
         </ul>
       </div>   
     </div>
@@ -199,7 +259,13 @@
         <p class="card-title">{{ $value.name }} BPM</p>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
-          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+          {{- if lt $value.percentage 3 }}
+            <li class="list-group-item"><span class="badge bg-danger">{{  $value.percentage }} % </span></li>
+          {{- else if lt $value.percentage 9 }}
+            <li class="list-group-item"><span class="badge bg-warning">{{  $value.percentage }} % </span></li>
+          {{- else }}
+            <li class="list-group-item"><span class="badge bg-success">{{  $value.percentage }} % </span></li>
+          {{- end }}
         </ul>
       </div>   
     </div>
@@ -209,10 +275,21 @@
     {{- $traitName := "speed" }}
     <div class="card" data-filter="{{- $traitName }}" >
       <div class="card-body">
-        <p class="card-title py-5 fs-4">{{ $value.name }} km/h </p>
+        {{- $reminder := mod $key  2 }}
+        {{ if eq $reminder  0 }}
+          <p class="card-title py-5 fs-4 bg-primary">{{- $value.name -}} km/h</p>
+        {{ else }}
+          <p class="card-title py-5 fs-4 bg-secondary">{{- $value.name -}} km/h</p>
+        {{ end }}
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
-          <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
+          {{- if lt $value.percentage 1 }}
+            <li class="list-group-item"><span class="badge bg-danger">{{  $value.percentage }} % </span></li>
+          {{- else if lt $value.percentage 2 }}
+            <li class="list-group-item"><span class="badge bg-warning">{{  $value.percentage }} % </span></li>
+          {{- else }}
+            <li class="list-group-item"><span class="badge bg-success">{{  $value.percentage }} % </span></li>
+          {{- end }}
         </ul>
       </div>   
     </div>
