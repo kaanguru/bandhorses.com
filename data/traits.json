@@ -10,5 +10,7 @@
   { "name": "mane", "quantity": 13 },
   { "name": "emotion", "quantity": 15 },
   { "name": "lensFX", "quantity": 6 },
-  { "name": "cartoonFX", "quantity": 10 }
+  { "name": "cartoonFX", "quantity": 10 },
+  { "name": "tempo", "quantity": 10 },
+  { "name": "speed", "quantity": 50 }
 ]

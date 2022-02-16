@@ -30,28 +30,21 @@
 <nav id="filters" class="nav nav-tabs">
 
   <div class="container">
-    <div class="row">
+    <div class="row py-2">
       <div class=" col">
         <a href="javascript:;" data-filter="all"><i class="bi bi-funnel-fill"></i>All</a> 
       </div>
-      <div class=" col">
-          <a href="javascript:;" data-filter="tempo"> 10 Tempos</a> 
-      </div>
-      <div class=" col">
-          <a href="javascript:;" data-filter="speed"> 50 Speeds</a> 
-      </div>
+      {{ range $key, $value := .Site.Data.traits }}
+        {{ if ne $value.name "favoriteDrummer" }}
+        {{  if ne $value.name "tattoo"  }}
+        <div class="px-1 col">
+          <a href="javascript:;" data-filter="{{- $value.name -}}">  {{ $value.quantity }} </br> {{ humanize  $value.name }}s</a>  
+        </div>
+        {{ end }}
+        {{ end }}
+      {{ end }}
     </div>
   </div>
-
-  {{ range $key, $value := .Site.Data.traits }}
-    {{ if ne $value.name "favoriteDrummer" }}
-    {{  if ne $value.name "tattoo"  }}
-    <li class="nav-item">
-      <a href="javascript:;" data-filter="{{- $value.name -}}">  {{ $value.quantity }} {{ humanize  $value.name }}s</a>  
-    </li> 
-    {{ end }}
-    {{ end }}
-  {{ end }}
 </nav>
 
 <div id="trait-result">
@@ -216,7 +209,7 @@
     {{- $traitName := "speed" }}
     <div class="card" data-filter="{{- $traitName }}" >
       <div class="card-body">
-        <p class="card-title py-5">{{ $value.name }} km/h </p>
+        <p class="card-title py-5 fs-4">{{ $value.name }} km/h </p>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
           <li class="list-group-item"><span class="badge bg-primary">{{  $value.percentage }} % </span></li>
