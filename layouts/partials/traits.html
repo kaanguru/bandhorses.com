@@ -201,7 +201,7 @@
     {{ range $key, $value := .Site.Data.tempo  }}
     {{- $traitName := "tempo" }}
     <div class="card" data-filter="{{- $traitName }}" >
-      <img src="https://via.placeholder.com/150" class="card-img-top" alt="{{ humanize $value.name }}s">
+      <img src="/images/traits/{{- $traitName }}/{{- $value.trait -}}.png" class="card-img-top" alt="{{ humanize $value.name }}s">
       <div class="card-body">
         <p class="card-title">{{ $value.name }} BPM</p>
         <ul class="list-group list-group-flush">
