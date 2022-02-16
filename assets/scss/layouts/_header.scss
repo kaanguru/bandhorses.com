@@ -5,6 +5,10 @@ header {
   background-position: top, center;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  #hero-video {
+    max-width: 960px;
+    margin: 0 auto;
+  }
 }
 @include media-breakpoint-down(lg) {
 }

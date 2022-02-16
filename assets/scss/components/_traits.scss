@@ -1,0 +1,55 @@
+#traits {
+  #filters {
+    text-align: center;
+    color: $independence;
+    font-size: $font-size-sm;
+    padding: 15px 0 0 0;
+    .nav-item {
+      margin: 1rem 2rem;
+    }
+  }
+  #filters a:hover,
+  #filters a.active {
+    color: $light-blue;
+  }
+  #sortlist {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0rem auto;
+    overflow: hidden;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    .card {
+      position: absolute;
+      width: 155px;
+      height: 320px;
+      display: block;
+      text-align: center;
+      font-size: 1rem;
+      overflow: hidden;
+      color: $smoky-black;
+      background-color: $gray-200;
+      box-shadow: inset 0px 0px 0px 1px $green-dark;
+      -webkit-transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      transition: all 0.4s ease-out;
+      .card-body {
+        padding: 0.1rem;
+      }
+      .card-img-top {
+        aspect-ratio: 1;
+        height: 150px;
+        width: 150px;
+      }
+      .card-title {
+        height: 60px;
+      }
+    }
+  }
+
+  #sortlist > li:hover {
+    color: $light-blue;
+  }
+}

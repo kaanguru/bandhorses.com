@@ -1649,6 +1649,11 @@ electron-to-chromium@^1.4.17:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.68.tgz#d79447b6bd1bec9183f166bb33d4bef0d5e4e568"
   integrity sha512-cId+QwWrV8R1UawO6b9BR1hnkJ4EJPCPAr4h315vliHUtVUJDk39Sg1PMNnaWKfj5x+93ssjeJ9LKL6r8LaMiA==
 
+emitus@^2.3.1:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/emitus/-/emitus-2.3.2.tgz#fc0f5adfc13958e3944641a32457827021f0b1e7"
+  integrity sha512-wNnipo+9tIUSVw2dSncgu4U3jiSfdZ61FsvjNJ0f95DES444cSiSr4DdMDat6ZpN4mS3hLc76t0rmFTI7NHZUw==
+
 emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
@@ -3336,6 +3341,13 @@ slice-ansi@^4.0.0:
     ansi-styles "^4.0.0"
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
+
+sortboard@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/sortboard/-/sortboard-3.1.0.tgz#ba7bd4e8122f6fb6ec73b4be934cae3af6d546b2"
+  integrity sha512-V38K+gEytzZ66QAVET+fmtyhTbcNOQ0a4kTG4SVkjWyUAxOXFwtfHzEFkjVk/M09C2mvlNq0w/S09uU6iI4xDw==
+  dependencies:
+    emitus "^2.3.1"
 
 source-map-js@^1.0.2:
   version "1.0.2"

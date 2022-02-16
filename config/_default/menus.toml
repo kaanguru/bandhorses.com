@@ -5,7 +5,7 @@ weight = 5
 [[main]]
 parent = "Utility"
 name = "Traits"
-url = "/"
+url = "#traits"
 weight = 10
 [[main]]
 parent = "Utility"
