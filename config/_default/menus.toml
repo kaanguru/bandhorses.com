@@ -5,12 +5,12 @@ weight = 5
 [[main]]
 parent = "Utility"
 name = "Traits"
-url = "#traits"
+url = "/utility/rarity"
 weight = 10
 [[main]]
 parent = "Utility"
 name = "FAQ"
-url = "/faq"
+url = "/utility/faq"
 weight = 15
 [[main]]
 name = "WAGMI"

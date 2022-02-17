@@ -1,11 +1,13 @@
 {{ define "main" }}
-
+    {{ if eq .Page.RelPermalink "/utility/rarity/" }}
+    {{ partial "content/traits.html" . }}
+    {{ else }}
     <div class="container">
       <section id="content" class="content clearfix">
         {{ .Content }}
       </section>
     </div>
-    
+    {{ end }}
 
   <script>
 

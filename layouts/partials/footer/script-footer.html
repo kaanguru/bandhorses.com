@@ -9,6 +9,9 @@
 
 {{/* EXAMPLE - only load script for a page type e.g. contact or gallery
 {{ if eq .Type "gallery" }}
-  {{ partial "footer/esbuild" (dict "src" "js/gallery.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/gallery.js" "load" "async" "transpile" false) -}}
 {{ end }}
 */}}
+{{ if eq .Type "utility" }}
+  {{ partial "footer/esbuild" (dict "src" "js/tawk.js" "load" "async" "transpile" false) -}}
+{{ end }}
