@@ -4,12 +4,15 @@
     text-align: center;
     color: $independence;
     font-size: $font-size-sm;
-    padding: 15px 0 0 0;
-    .nav-item {
-      margin: 1rem 2rem;
+    .dropdown.col {
+      margin-bottom: 1rem;
     }
     .dropdown-menu {
       padding: 1rem;
+    }
+    #filterMenuButton {
+      min-width: 50%;
+      letter-spacing: 0.3rem;
     }
   }
 

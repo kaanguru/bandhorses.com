@@ -8,7 +8,6 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
 h1,
 h2,
 h3,
@@ -27,17 +26,28 @@ h6,
   line-height: $headings-line-height;
   text-align: center;
 }
-
+#content {
+  .section {
+    background: $gray-200;
+    padding-top: 1rem 0rem;
+  }
+}
+.section svg {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: text-top;
+}
+.monospace {
+  font-family: $font-family-code;
+}
 @include media-breakpoint-up(md) {
   body {
     font-size: $font-size-md;
   }
-
   .content {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 2rem 0rem;
   }
-
   h1,
   h2,
   h3,
@@ -52,28 +62,4 @@ h6,
   .h6 {
     margin-bottom: 1.125rem;
   }
-}
-
-@include media-breakpoint-up(lg) {
-  .content {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-}
-
-.section {
-  background: $gray-200;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.section svg {
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  vertical-align: text-top;
-}
-
-.monospace {
-  font-family: $font-family-code;
 }
