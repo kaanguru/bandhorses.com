@@ -18,7 +18,7 @@ import { sortboard } from './node_modules/sortboard/dist/sortboard.umd.min.js';
 const sb = sortboard({
     container: '#sortlist',
     selector: '.card',
-    gutter: 15,
+    gutter: 9,
     resetFilterValue: '🔁',
 })
 const anchors = children('#filters a')

@@ -279,12 +279,12 @@
     {{ range $key, $value := .Site.Data.speed  }}
     {{- $traitName := "speed" }}
     <div class="card" data-filter="{{- $traitName }}" >
-      <div class="card-body">
+      <div class="card-body mt-3">
         {{- $reminder := mod $key  2 }}
         {{ if eq $reminder  0 }}
-          <p class="card-title py-5 fs-4 bg-primary">{{- $value.name -}} km/h</p>
+          <p class="card-title fs-4 text-light bg-primary">{{- $value.name -}} km/h</p>
         {{ else }}
-          <p class="card-title py-5 fs-4 bg-secondary">{{- $value.name -}} km/h</p>
+          <p class="card-title fs-4 text-light bg-secondary">{{- $value.name -}} km/h</p>
         {{ end }}
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><span class="badge bg-secondary">{{ $value.quantity }} BNH</span></li>
