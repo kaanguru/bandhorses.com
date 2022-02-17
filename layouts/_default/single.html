@@ -1,22 +1,13 @@
 {{ define "main" }}
 
     <div class="container">
-      <section class="content clearfix">
+      <section id="content" class="content clearfix">
         {{ .Content }}
       </section>
     </div>
     
-  <div id="gotoTop" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"><i class="bi bi-caret-up-fill" ></i></div>
+
   <script>
-    const gotoTopButton = document.getElementById('gotoTop');
-    window.onscroll = () => displaybutton();
-    function displaybutton() {
-        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-            gotoTopButton.style.display = 'block';
-        } else {
-            gotoTopButton.style.display = 'none';
-        }
-    }
 
 
   </script>

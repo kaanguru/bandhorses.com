@@ -27,25 +27,30 @@
   </div>
 </div>
 
-<nav id="filters" class="nav nav-tabs">
-
+<div id="filters">
   <div class="container">
-    <div class="row py-2">
-      <div class=" col">
-        <a href="javascript:;" data-filter="all"><i class="bi bi-funnel-fill"></i>All</a> 
+    <div class="row py-1">
+
+      <div class="dropdown col ">
+        <button class="btn btn-secondary  flex-fill  dropdown-toggle" type="button" id="filterMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-funnel-fill"></i>  Filter Traits
+        </button>
+        <ul class="dropdown-menu " aria-labelledby="filterMenuButton">
+          <li> <a class="dropdown-item" href="javascript:;" data-filter="🔁">🔁</a> </li>
+          <li><hr class="dropdown-divider"></li>
+          {{ range $key, $value := .Site.Data.traits }}
+          {{ if ne $value.name "favoriteDrummer" }}
+          {{  if ne $value.name "tattoo"  }}
+          <li> <a class="dropdown-item" href="javascript:;" data-filter="{{- $value.name -}}">  {{ $value.quantity }} {{ humanize  $value.name }}s</a> </li> 
+          {{ end }}
+          {{ end }}
+        {{ end }}
+        </ul>
       </div>
-      {{ range $key, $value := .Site.Data.traits }}
-        {{ if ne $value.name "favoriteDrummer" }}
-        {{  if ne $value.name "tattoo"  }}
-        <div class="px-1 col">
-          <a href="javascript:;" data-filter="{{- $value.name -}}">  {{ $value.quantity }} </br> {{ humanize  $value.name }}s</a>  
-        </div>
-        {{ end }}
-        {{ end }}
-      {{ end }}
+
     </div>
   </div>
-</nav>
+</div>
 
 <div id="trait-result">
   <ul id="sortlist">

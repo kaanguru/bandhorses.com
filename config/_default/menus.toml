@@ -10,7 +10,7 @@ weight = 10
 [[main]]
 parent = "Utility"
 name = "FAQ"
-url = "/"
+url = "/faq"
 weight = 15
 [[main]]
 name = "WAGMI"

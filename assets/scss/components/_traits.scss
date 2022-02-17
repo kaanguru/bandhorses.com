@@ -7,11 +7,16 @@
     .nav-item {
       margin: 1rem 2rem;
     }
+    .dropdown-menu {
+      padding: 1rem;
+    }
   }
+
   #filters a:hover,
   #filters a.active {
     color: $light-blue;
   }
+
   #sortlist {
     position: relative;
     display: block;
