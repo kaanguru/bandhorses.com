@@ -19,12 +19,11 @@ One of their unique traits turned out to be a 16 beats loop of a musical phrase.
 
 BandHorses have 12 hand-drawn traits, 65 famous drummers, 101 labels and musician tattoos, and running speeds. It makes each one of them extraordinary. But content over form, right? Remember their unique feature? Yep, musical phrases. That's what makes them stand out from regular profile pictures.[*][2]
 
-
 ### The only NFT for musicians and music lovers
 
 <div class="row">
     <div class="col-lg-6">
-        <h3>Each BandHorse is a fusion of generative musical phrases & visual art!</h3>
+        <h5>Each BandHorse is a fusion of generative musical phrases 🎵 & visual art 🎨 </h5>
         <h5>Musical Phrases</h5>
         <p>By having a BandHorse friend you already have seamless looping 16 Beats of unique musical phrases. Musical phrases are just motifs and patterns they are not full compositions so they have more use cases. They can be used in combination with different musical genres.</p>
     </div>

@@ -3,6 +3,7 @@ body {
   letter-spacing: 0.2rem;
   word-spacing: 0.5rem;
   background-color: $snow;
+  line-height: $line-height-base;
 }
 .content {
   padding-top: 1rem;
@@ -40,6 +41,10 @@ h6,
 }
 .monospace {
   font-family: $font-family-code;
+}
+
+.section.container-fluid {
+  margin: 2rem auto;
 }
 
 @include media-breakpoint-up(md) {
