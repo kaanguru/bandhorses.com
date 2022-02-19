@@ -41,9 +41,10 @@ h6,
 .monospace {
   font-family: $font-family-code;
 }
+
 @include media-breakpoint-up(md) {
   body {
-    font-size: $font-size-md;
+    font-size: $font-size-lg;
   }
   .content {
     padding-top: 2rem 0rem;

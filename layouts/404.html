@@ -1,10 +1,23 @@
 {{ define "main" }}
 <div class="row justify-content-center">
+  <div id="logo" class="col ">
+    <a href="/">
+        <img src="/images/logo-header.png" alt="Band Horses Logo"
+            class="d-md-block d-lg-none p-1" height="65"  />
+        <img src="/images/band-horses-logo.png" alt="Band Horses Logo"
+            class="d-none d-lg-block pt-2"   />    
+    </a>
+  </div>
   <div class="col-lg-7">
     <article>
-      <h1>Page not found :(</h1>
+      <h1>Hoo hold your horses 🐴 </h1>
+      <h3>Page not found :(</h3>
       <p>The page you are looking for doesn't exist or has been moved.</p>
     </article>
   </div>
+
+</div>
+<div class="row">
+  <h1 id="title"><a href="{{ "/" | relURL }}">Go to 1 : 4 4 4 4 Art Home</a></h1>
 </div>
 {{ end }}

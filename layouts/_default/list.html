@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="row justify-content-center">
   <div class="col-lg-7">
+    test
     <h1>{{ .Title }} ala</h1>
     {{ $paginator := .Paginate (.Data.Pages) -}}
     {{ range $paginator.Pages -}}
