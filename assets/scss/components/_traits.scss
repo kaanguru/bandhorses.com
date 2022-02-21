@@ -9,6 +9,9 @@
     }
     .dropdown-menu {
       padding: 1rem;
+      .dropdown-item {
+        padding: 1rem;
+      }
     }
     #filterMenuButton {
       min-width: 50%;
@@ -67,6 +70,7 @@
         width: $card-width;
         font-family: $font-family-sans-serif;
         font-weight: bold;
+        font-size: $font-size-lg;
         margin: auto;
         background-color: transparentize($color: $white, $amount: 0.2);
         overflow: hidden;
