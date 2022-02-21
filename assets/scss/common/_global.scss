@@ -46,7 +46,10 @@ h6,
 .section.container-fluid {
   margin: 2rem auto;
 }
-
+.flip-image {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 @include media-breakpoint-up(md) {
   body {
     font-size: $font-size-lg;

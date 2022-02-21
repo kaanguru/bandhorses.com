@@ -44,6 +44,7 @@ function children(selector, parent = document) {
     return Array.prototype.slice
         .call(parent.querySelectorAll(selector))
 }
+
 // scroll to top
 const gotoTopButton = document.getElementById('gotoTop');
 window.onscroll = () => displaybutton(500);
@@ -54,4 +55,3 @@ function displaybutton(down) {
         gotoTopButton.style.display = 'none';
     }
 }
-
