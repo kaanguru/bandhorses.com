@@ -1,4 +1,4 @@
-baseurl = "https://bandhorses.com/"
+baseurl = "https://socially-responsible-horse.netlify.app/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
