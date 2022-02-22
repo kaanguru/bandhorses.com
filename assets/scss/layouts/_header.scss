@@ -1,15 +1,21 @@
-.home header {
-  min-height: 100vh;
-  background-image: url("/images/stage-bg.jpg");
-  background-size: cover;
-  background-position: top, center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  #hero-video {
-    max-width: 960px;
-    margin: 0.3rem auto;
+.home {
+  header {
+    min-height: 100vh;
+    background-image: url("/images/stage-bg.jpg");
+    background-size: cover;
+    background-position: top, center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    #hero-video {
+      max-width: 960px;
+      margin: 0.3rem auto;
+    }
+  }
+  .flicker {
+    background-image: url("/images/stage-bg-f2.jpg");
   }
 }
+
 .mouse-icon {
   position: absolute;
   z-index: 3;
@@ -18,9 +24,9 @@
   margin-left: -32px;
   width: 32px;
   height: 32px;
-  font-size: 32px;
   text-align: center;
   bottom: 30px;
+  scale: 1.5;
 }
 
 .animated {

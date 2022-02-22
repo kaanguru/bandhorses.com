@@ -14,13 +14,18 @@ url = "/utility/faq"
 weight = 15
 [[main]]
 name = "WAGMI"
-url = "/tokenomics"
+url = "#WAGMI"
 weight = 20
 [[main]]
 parent = "WAGMI"
 name = "Frenz responsibility"
 url = "/sr"
-weight = 20
+weight = 22
+[[main]]
+parent = "WAGMI"
+name = "Tokenomics"
+url = "/tokenomics"
+weight = 24
 [[main]]
 name = "Fun Tour"
 url = "/tour-dates"

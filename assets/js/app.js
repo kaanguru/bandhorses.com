@@ -21,7 +21,8 @@ const sb = sortboard({
     gutter: 9,
     resetFilterValue: '🔁',
 })
-const anchors = children('#filters a')
+const anchors = children('#filters a')  // get all anchors
+
 anchors.forEach(el => {
     el.addEventListener(
         'click',
@@ -47,11 +48,35 @@ function children(selector, parent = document) {
 
 // scroll to top
 const gotoTopButton = document.getElementById('gotoTop');
-window.onscroll = () => displaybutton(500);
-function displaybutton(down) {
+
+function displayToTopButton(down) {
     if (document.body.scrollTop > down || document.documentElement.scrollTop > down) {
         gotoTopButton.style.display = 'block';
     } else {
         gotoTopButton.style.display = 'none';
     }
 }
+
+// flicker background
+function startFlickerBackgroundInterval() {
+    const msList = [500, 1000, 545, 300, 600, 480];
+    const delayMs = msList[Math.floor(Math.random() * msList.length)];
+    console.log('delayMs :>> ', delayMs);
+    let header = document.getElementById('header');
+    setInterval(flip, delayMs);
+    function flip() {
+        if (header.classList.contains('flicker') === true) {
+            header.classList.remove('flicker');
+        } else {
+            setTimeout(() => {
+                header.classList.add('flicker');
+            }, delayMs / 2);
+        }
+    }
+}
+
+// if dom loaded
+document.addEventListener('DOMContentLoaded', () => {
+    startFlickerBackgroundInterval();
+    window.onscroll = () => displayToTopButton(500);
+});

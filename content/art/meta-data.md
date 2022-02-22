@@ -6,4 +6,6 @@ lastmod: 2022-02-20T07:35:07+03:00
 draft: false
 images: []
 ---
-meta data page
+<div class="col-lg img-fluid">
+    <img src="https://placeimg.com/480/480/nature/sepia">
+</div>

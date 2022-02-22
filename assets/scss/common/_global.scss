@@ -50,6 +50,13 @@ h6,
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+ul {
+  list-style: none;
+  li input {
+    filter: invert(100%) hue-rotate(18deg) brightness(1.7);
+  }
+}
+
 @include media-breakpoint-up(md) {
   body {
     font-size: $font-size-lg;

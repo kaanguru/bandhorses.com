@@ -6,4 +6,6 @@ lastmod: 2022-02-20T07:32:55+03:00
 draft: false
 images: []
 ---
-music
+<div class="col-lg img-fluid">
+    <img src="https://placeimg.com/480/480/nature/sepia">
+</div>

@@ -7,4 +7,6 @@ draft: false
 images: []
 ---
 
-Rarity is important
+<div class="col-lg img-fluid">
+    <img src="https://placeimg.com/480/480/nature/sepia">
+</div>
