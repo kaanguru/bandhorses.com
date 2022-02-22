@@ -17,6 +17,7 @@ import { displayToTopButton } from './assets/js/scroll-top';
 
 // if dom loaded
 document.addEventListener('DOMContentLoaded', () => {
+    console.info('DOM loaded');
     startFlickerBackgroundInterval();
     window.onscroll = () => {
         displayToTopButton(500);
