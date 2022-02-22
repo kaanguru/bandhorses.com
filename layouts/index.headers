@@ -2,7 +2,7 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 0
-  Content-Security-Policy: frame-ancestors 'self';block-all-mixed-content;default-src 'self';script-src 'self' 'report-sample' 'unsafe-inline' *.netlify.app *.jotfor.ms  *.jsdelivr.net *.tawk.to *.jotform.com; style-src 'self' 'report-sample' 'unsafe-inline' *.netlify.app *.jotfor.ms *.tawk.to *.googleapis.com;object-src 'none';frame-src 'self' *.tawk.to;child-src 'self';img-src 'self' *.bandhorses.com *.jotfor.ms *.jsdelivr.net* *.tawk.to *.gstatic.com placeimg.com tawk.link *.jotform.com;font-src 'self' *.tawk.to *.googleapis.com *.gstatic.com;connect-src 'self' *.tawk.to *.gstatic.com *.googleapis.com;manifest-src 'self';base-uri 'self';form-action 'self';media-src 'self' *.tawk.to tawk.link;prefetch-src 'self';worker-src 'self';
+  Content-Security-Policy: default-src 'self' 'unsafe-inline';script-src 'self' 'report-sample' 'unsafe-inline' ;
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: same-origin
   Cache-Control: public, max-age=31536000
