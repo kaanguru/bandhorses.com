@@ -1,11 +1,11 @@
 [build]
 publish = "public"
-functions = "functions"
 
 [build.environment]
+HUGO_VERSION = "0.92.2"
 NODE_VERSION = "16.14.0"
 NPM_VERSION = "8.3.1"
-
+YARN_VERSION = "1.22.15"
 [context.production]
 command = "npm run build"
 
