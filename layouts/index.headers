@@ -2,7 +2,7 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 0
-  Content-Security-Policy: default-src 'self'  https://*.bandhorses.com/ ; script-src 'self' 'unsafe-inline' https://*.tawk.to/ https://*.jotfor.ms/ https://*.jsdelivr.net/ 'sha256-aWZ3y/RxbBYKHXH0z8+8ljrHG1mSBvyzSfxSMjBSaXk=' 'sha256-xYpIPkHGsgplogNE6lYV328fhkL/CVbabduHN2Wwqfw='; img-src  'self'  https://*.placeimg.com/ https://*.bandhorses.com/  ; font-src 'self' https://*.jotfor.ms/ ; style-src  'self' https://*.googleapis.com/ https://*.tawk.to/ ; base-uri 'self'; connect-src 'self' https://*.tawk.to/ ; object-src 'none'; media-src 'self' https://*.tawk.to/; worker-src 'none';
+  Content-Security-Policy: default-src 'self'  https://*.bandhorses.com/ ; script-src 'self' 'unsafe-inline' https://*.tawk.to/ https://*.jotfor.ms/ https://form.jotform.com/ https://*.jsdelivr.net/ 'sha256-aWZ3y/RxbBYKHXH0z8+8ljrHG1mSBvyzSfxSMjBSaXk=' 'sha256-xYpIPkHGsgplogNE6lYV328fhkL/CVbabduHN2Wwqfw='; img-src  'self'  https://placeimg.com/ https://*.bandhorses.com/  ; font-src 'self' https://*.jotfor.ms/  https://embed.tawk.to/ https://fonts.gstatic.com/ ; style-src  'self' https://*.googleapis.com/ https://*.tawk.to/ ; base-uri 'self'; connect-src 'self' https://*.tawk.to/ ; object-src 'none'; media-src 'self' https://*.tawk.to/; worker-src 'none';
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin
   Feature-Policy: geolocation 'self'
