@@ -21,8 +21,6 @@ images: []
 
 ## 2022
 
-<!-- <div class="text-center" ><video controls src="/videos/band-horses-video.mp4" muted="false"></video></div> -->
-
 <div class="row">
 <div class="col bg-primary text-light">
 

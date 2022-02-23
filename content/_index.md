@@ -12,10 +12,12 @@ images: []
 ## <small class="text-muted">4 4 4 4 Fun </small> Band Horses
 
 Shhhh... Did you hear that? These rhythmical beats? Someone is tapping on the blockchain! Aaaaand here they are, 4444 BandHorses 🐴 They are eager to meet new frenz and drag them into the metaverse. Hop on and join the tour 🎫
+[Learn more about BandFrenz <i class="bi bi-arrow-right-short"></i>](/tour-dates)
+
 </div>
 {{< figure src="/images/drummergirl.png" class="col-lg-6 pt-5 " width="100%"  >}}
 </div>
-<!-- TODO: learn more about -->
+
 <div class="row my-5 py-5">
 {{< figure src="/images/10.png" class="col-lg-6 pt-5" width="100%" >}}
 <div class="col-lg-6  my-5 py-5">
@@ -34,7 +36,7 @@ BandHorses are NOT just an image. Remember that tapping? Exactly! They are a fus
 
 One of their unique traits turned out to be a 16 beats loop of a musical phrase. These AI-generated Midi loops are just motifs and patterns. All we have to do is just catch the Muse and compose in whatever genre we like.
 </div>
-{{< figure src="/images/horsehug.png" class="col-lg-6 pt-5 flip-image" width="100%" >}}
+{{< figure src="/images/ai-generated.gif" class="col-lg-6 pt-5 " width="100%" >}}
 </div>
 
 <div class="row my-5 py-5" >
@@ -51,14 +53,14 @@ BandHorses have 12 hand-drawn traits, 65 famous drummers, 101 labels and musicia
 </div>
 
 <div class="row my-5 py-5">
-<div class="col-lg-6">
+<div class="col-lg-6 pt-5">
 
 ## Musical Loop NFTs
 
 Loop NFTs for blockchain-based collaborative music production of music studios on metaverse.
 
 </div>
-{{< figure src="/images/horsehug.png" class="col-lg-6 pt-5 flip-image" width="100%" >}}
+<div class="col-lg-6" width="100%"><video controls src="/videos/Musical-Loop-NFTs.mp4" muted="true"></video></div>
 </div>
 
 [1]: #musical-loop-nfts "Musical Loop NFTs"

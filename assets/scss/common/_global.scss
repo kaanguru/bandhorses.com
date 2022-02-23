@@ -56,7 +56,9 @@ ul {
     filter: invert(100%) hue-rotate(18deg) brightness(1.7);
   }
 }
-
+a:hover {
+  text-decoration: none;
+}
 @include media-breakpoint-up(md) {
   body {
     font-size: $font-size-lg;
