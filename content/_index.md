@@ -40,7 +40,7 @@ One of their unique traits turned out to be a 16 beats loop of a musical phrase.
 </div>
 
 <div class="row my-5 py-5" >
-<div class="col-lg-6" width="100%"><video autoplay  src="/videos/layers-flipped.mp4"></video></div>
+<div class="col-lg-6" ><video autoplay="true"  src="/videos/layers-flipped.mp4" width="100%" loop="true" ></video></div>
 <div class="col-lg-6">
 
 ## Not Just Pictures
@@ -60,7 +60,7 @@ BandHorses have 12 hand-drawn traits, 65 famous drummers, 101 labels and musicia
 Loop NFTs for blockchain-based collaborative music production of music studios on metaverse.
 
 </div>
-<div class="col-lg-6" width="100%"><video controls src="/videos/Musical-Loop-NFTs.mp4"  muted="false"></video></div>
+<div class="col-lg-6"><video controls src="/videos/Musical-Loop-NFTs.mp4"  muted="false"  width="100%"></video></div>
 </div>
 
 [1]: #musical-loop-nfts "Musical Loop NFTs"
