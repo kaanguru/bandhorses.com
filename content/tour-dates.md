@@ -12,13 +12,10 @@ images: []
 
 ### 2021 Research Phase *Finished*
 
-- [x] Utilities
-- [x] Most Loved Pets
-- [x] Mood Boards
-- [x] Horse Culture
-- [x] Market
-- [x] Donation Platforms
-- [x] Crowd Funding
+- [x] Research Utilities [x] Most Loved Pets
+- [x] Create Mood Boards [x] Buy Domain
+- [x] Learn Horse Culture [x] Market Research
+- [x] Donation Platforms  [x] Crowd Funding
 
 </div>
 
