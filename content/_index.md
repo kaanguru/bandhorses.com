@@ -26,6 +26,7 @@ Shhhh... Did you hear that? These rhythmical beats? Someone is tapping on the bl
 
 BandHorses are NOT just an image. Remember that tapping? Exactly! They are a fusion of generative musical phrases 🎵 & visual art 🎨
 
+[Learn more about Visual Art <i class="bi bi-arrow-right-short"></i>](/art/visual-art)
 </div>
 </div>
 
@@ -35,12 +36,14 @@ BandHorses are NOT just an image. Remember that tapping? Exactly! They are a fus
 ## 1 : 1 Generative Musical Phrases
 
 One of their unique traits turned out to be a 16 beats loop of a musical phrase. These AI-generated Midi loops are just motifs and patterns. All we have to do is just catch the Muse and compose in whatever genre we like.
+
+[Learn more about Musical Phrases <i class="bi bi-arrow-right-short"></i>](/art/musical-phrases)
 </div>
 <div class="col-lg-6" ><video autoplay muted loop src="/videos/ai-generated.mp4" width="100%" ></video></div>
 </div>
 
 <div class="row my-5 py-5" >
-<div class="col-lg-6" ><video autoplay muted loop src="/videos/layers-flipped.mp4" width="100%" ></video></div>
+<div class="col-lg-6 py-5" ><video autoplay muted loop src="/videos/layers-flipped.mp4" width="100%" ></video></div>
 <div class="col-lg-6">
 
 ## Not Just Pictures

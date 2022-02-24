@@ -59,6 +59,10 @@ ul {
 a:hover {
   text-decoration: none;
 }
+.home .section a {
+  font-size: smaller;
+  padding: 1rem;
+}
 @include media-breakpoint-up(md) {
   body {
     font-size: $font-size-lg;
