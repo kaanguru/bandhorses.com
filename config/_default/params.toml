@@ -7,7 +7,7 @@ titleAddition = "The Official Website of Band Horses | Not Just Pictures!"
 description = "The Band Horses are collectible musical NFTs. There are 4444 of them tapping on the blockchain."
 
 ## Open Graph
-images = ["hyas.png"]
+images = ["BNH-Site.png"]
 ogLocale = "en_US"
 titleHome = "Band Horses"
 
@@ -22,32 +22,32 @@ schemaName = "bandhorses"
 schemaAuthor = "Band Horse"
 schemaAuthorTwitter = "https://twitter.com/bandhorsesNFT"
 schemaLocale = "en-US"
-schemaLogo = "logo-hyas.png"
-schemaLogoWidth = 512
-schemaLogoHeight = 512
-schemaImage = "hyas.png"
-schemaImageWidth = 1280
-schemaImageHeight = 640
+schemaLogo = "band-horses-logo.png"
+schemaLogoWidth = 244
+schemaLogoHeight = 90
+schemaImage = "BNH-Site.png"
+schemaImageWidth = 1366
+schemaImageHeight = 768
 schemaTwitter = "https://twitter.com/bandhorsesNFT"
-schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/hyas"
+schemaDiscord = "https://discord.com/invite/UyaJspUaSZ"
+schemaInstagram = "https://www.instagram.com/bandhorses"
 
 ## Chrome Browser
-themeColor = "#e3e3e3"
+themeColor = "#FEFBFC"
 
 # Images
 quality = 85
-bgColor = "#e1f2fe"
+bgColor = "#FEFBFC"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 smallLimit = "320"
 
 # Footer
-footer = " "
+footer = "🎵 🐴 🥁 🎸 🔁 "
 
 # Feed
-copyRight = " "
+copyRight = "🎵 🐴 🥁 🎸 🔁"
 
 # Alert
 alert = true

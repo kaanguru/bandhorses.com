@@ -7,7 +7,7 @@ draft: false
 images: []
 ---
 <div class="row my-5 py-5" >
-<div class="col-lg-6">
+<div class="col-lg-6 pt-5">
 Holders will have seamless looping, 16 beats of unique musical phrases by having a BandHorse friend.
 Musical phrases are just motifs and patterns. Loops are not full compositions. They have more use cases. They can be used in combination with different musical genres.
 
@@ -15,6 +15,8 @@ Musical phrases are just motifs and patterns. Loops are not full compositions. T
 {{< figure src="/images/unique.jpg" class="col-lg-6 " width="100%"  >}}
 </div>
 
+<div class="row my-5 py-5" >
+<div class="col-lg-6 ">
 Bandhorses has unique building blocks for music which can be used in rock, pop, jazz, or metal tracks completely royalty-free.
 
 * Holders get full usage rights that are not restricted by time, location, or medium.
@@ -24,3 +26,6 @@ Bandhorses has unique building blocks for music which can be used in rock, pop, 
 Modify midi files to match your production. We will have necessary tutorial videos explaining how to use loops in your musical productions.
 
 **10 different Tempos** Including Lossless FLAC, Ogg, and midi files enable future implementations we can’t envision today.
+</div>
+{{< figure src="/images/ai-generated.png" class="col-lg-6 pt-5"  >}}
+</div>
