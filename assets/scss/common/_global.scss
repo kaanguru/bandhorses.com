@@ -63,6 +63,12 @@ a:hover {
   font-size: smaller;
   padding: 1rem;
 }
+.art #content li {
+  padding: 1rem 0.5rem;
+  background-color: $alice-blue;
+  margin: 1rem;
+}
+
 @include media-breakpoint-up(md) {
   body {
     font-size: $font-size-lg;

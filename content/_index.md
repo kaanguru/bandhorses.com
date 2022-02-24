@@ -53,7 +53,7 @@ One of their unique traits turned out to be a 16 beats loop of a musical phrase.
 
 BandHorses have 12 hand-drawn traits, 65 famous drummers, 101 labels and musician tattoos, and running speeds. It makes each one of them extraordinary. But content over form, right? Remember their unique feature? Yep, musical phrases. That's what makes them stand out from regular profile pictures.
 
-[Learn more about Loops <i class="bi bi-arrow-right-short"></i>](/art/musical-phrases)
+[Learn more about MetaData <i class="bi bi-arrow-right-short"></i>](/art/meta-data)
 </div>
 </div>
 

@@ -38,9 +38,8 @@
         letter-spacing: 0.33rem;
       }
       .dropdown-menu {
-        background-color: transparent;
+        background-color: transparentize($color: $alice-blue, $amount: 0.3);
         border: none;
-
         .dropdown-item {
           background-color: transparent;
           color: $independence;
