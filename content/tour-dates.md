@@ -93,6 +93,3 @@ images: []
 
 [Details of Plan](https://plan.toggl.com/#pp/sB5RhAuXHTs0Q_CXmHY9A_bsSEk5bdZr)
 
-------------
-
-{{% whitelist %}}

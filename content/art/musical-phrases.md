@@ -24,5 +24,3 @@ Bandhorses has unique building blocks for music which can be used in rock, pop, 
 Modify midi files to match your production. We will have necessary tutorial videos explaining how to use loops in your musical productions.
 
 **10 different Tempos** Including Lossless FLAC, Ogg, and midi files enable future implementations we can’t envision today.
-
-

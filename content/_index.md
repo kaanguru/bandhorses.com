@@ -12,6 +12,7 @@ images: []
 ## <small class="text-muted">4 4 4 4 Fun </small> Band Horses
 
 Shhhh... Did you hear that? These rhythmical beats? Someone is tapping on the blockchain! Aaaaand here they are, 4444 BandHorses 🐴 They are eager to meet new frenz and drag them into the metaverse. Hop on and join the tour 🎫
+
 [Learn more about BandFrenz <i class="bi bi-arrow-right-short"></i>](/tour-dates)
 
 </div>
@@ -52,6 +53,7 @@ One of their unique traits turned out to be a 16 beats loop of a musical phrase.
 
 BandHorses have 12 hand-drawn traits, 65 famous drummers, 101 labels and musician tattoos, and running speeds. It makes each one of them extraordinary. But content over form, right? Remember their unique feature? Yep, musical phrases. That's what makes them stand out from regular profile pictures.
 
+[Learn more about Loops <i class="bi bi-arrow-right-short"></i>](/art/musical-phrases)
 </div>
 </div>
 
@@ -62,6 +64,7 @@ BandHorses have 12 hand-drawn traits, 65 famous drummers, 101 labels and musicia
 
 Loop NFTs for blockchain-based collaborative music production of music studios on metaverse.
 
+[Learn more about future plans <i class="bi bi-arrow-right-short"></i>](/tour-dates)
 </div>
 <div class="col-lg-6"><video controls autoplay muted loop src="/videos/Musical-Loop-NFTs.mp4" width="100%"></video></div>
 </div>
