@@ -30,17 +30,17 @@ BandHorses are NOT just an image. Remember that tapping? Exactly! They are a fus
 </div>
 
 <div class="row my-5 py-5">
-<div class="col-lg-6 pt-5 mt-5">
+<div class="col-lg-6 ">
 
 ## 1 : 1 Generative Musical Phrases
 
 One of their unique traits turned out to be a 16 beats loop of a musical phrase. These AI-generated Midi loops are just motifs and patterns. All we have to do is just catch the Muse and compose in whatever genre we like.
 </div>
-{{< figure src="/images/ai-generated.gif" class="col-lg-6 pt-5 " width="100%" >}}
+<div class="col-lg-6" ><video autoplay muted loop src="/videos/ai-generated.mp4" width="100%" ></video></div>
 </div>
 
 <div class="row my-5 py-5" >
-<div class="col-lg-6" ><video autoplay="true"  src="/videos/layers-flipped.mp4" width="100%" loop="true" ></video></div>
+<div class="col-lg-6" ><video autoplay muted loop src="/videos/layers-flipped.mp4" width="100%" ></video></div>
 <div class="col-lg-6">
 
 ## Not Just Pictures
@@ -60,7 +60,7 @@ BandHorses have 12 hand-drawn traits, 65 famous drummers, 101 labels and musicia
 Loop NFTs for blockchain-based collaborative music production of music studios on metaverse.
 
 </div>
-<div class="col-lg-6"><video controls src="/videos/Musical-Loop-NFTs.mp4"  muted="false"  width="100%"></video></div>
+<div class="col-lg-6"><video controls autoplay muted loop src="/videos/Musical-Loop-NFTs.mp4" width="100%"></video></div>
 </div>
 
 [1]: #musical-loop-nfts "Musical Loop NFTs"
