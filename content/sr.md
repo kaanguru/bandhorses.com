@@ -9,15 +9,12 @@ images: []
 
 ## Sustainability 🌲
 
-In the end, we will conserve only what we love, we will love only what we understand, we will understand only what we have been taught.
+> In the end, we will conserve only what we love, we will love only what we understand,
+> we will understand only what we have been taught.
 
 ![WildHorse](/images/wild-horse.webp)
 
-Ethereum needs to be greener.
-
-It's no secret that Ethereum and other blockchains like Bitcoin are energy intensive because of mining.
-
-But Ethereum is moving towards being secured by ETH, not computing power - via staking.
+### Ethereum is moving towards being secured by staking not computing power
 
 Although staking has already been introduced by the Beacon Chain, the Ethereum we use today will run in parallel for a period of time. One system secured by ETH, the other by computing power. This is until The Merge.
 
