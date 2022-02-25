@@ -40,8 +40,8 @@ quality = 85
 bgColor = "#FEFBFC"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
-lqipWidth = "20x"
-smallLimit = "320"
+lqipWidth = "30x"
+smallLimit = "360"
 
 # Footer
 footer = "🎵 🐴 🥁 🎸 🔁 "
@@ -50,6 +50,6 @@ footer = "🎵 🐴 🥁 🎸 🔁 "
 copyRight = "🎵 🐴 🥁 🎸 🔁"
 
 # Alert
-alert = true
+alert = false
 alertDismissable = true
 alertText = "Early access to Band Horses NFT sale. <a class=\"alert-link\" href=\"https://form.jotform.com/220403084309042/\" target=\"_blank\" rel=\"noopener\">Get me listed →</a>"
