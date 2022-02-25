@@ -23,6 +23,8 @@ images: []
 
 ## 2022
 
+{{< figure src="/images/mockups.webp" class="pt-5" width="100%" >}}
+
 <div class="row">
 <div class="col bg-primary text-light">
 
@@ -94,7 +96,6 @@ images: []
 </div>
 
 ## 2023
-
 
 
 <a href="https://plan.toggl.com/#pp/sB5RhAuXHTs0Q_CXmHY9A_bsSEk5bdZr" target="_blank">Details of Plan </a>

@@ -59,6 +59,9 @@ ul {
   li input {
     filter: invert(100%) hue-rotate(18deg) brightness(1.7);
   }
+  li input[checked] {
+    filter: invert(100%) hue-rotate(36deg) brightness(2);
+  }
 }
 a:hover {
   text-decoration: none;

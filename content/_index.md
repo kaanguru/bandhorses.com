@@ -44,16 +44,16 @@ One of their unique traits turned out to be a 16 beats loop of a musical phrase.
 </div>
 
 <div class="row my-5 py-5" >
-<div class="col-lg-6 py-5" ><video autoplay muted loop src="/videos/layers-flipped.mp4" width="100%" ></video></div>
+<div class="col-lg-6" ><video autoplay muted loop src="/videos/layers-flipped.mp4" width="100%" ></video></div>
 <div class="col-lg-6">
 
-## Not Just Pictures
+## Rarity
 
-### <small class="text-muted">have fun with </small> Musical Loops
-
-BandHorses have 12 hand-drawn traits, 65 famous drummers, 101 labels and musician tattoos, and running speeds. It makes each one of them extraordinary. But content over form, right? Remember their unique feature? Yep, musical phrases. That's what makes them stand out from regular profile pictures.
+BandHorses have 12 hand-drawn traits, 65 famous drummers, 101 label and musician tattoos, and running speeds. It makes each one of them extraordinary. But content over form, right? Remember their unique feature? Yep, musical phrases. That's what makes them stand out from regular profile pictures.
 
 [Learn more about MetaData <i class="bi bi-arrow-right-short"></i>](/art/meta-data)
+
+[Learn more about Traits and Rarity <i class="bi bi-arrow-right-short"></i>](/utility/rarity)
 </div>
 </div>
 
@@ -67,6 +67,20 @@ Loop NFTs for blockchain-based collaborative music production of music studios o
 [Learn more about future plans <i class="bi bi-arrow-right-short"></i>](/tour-dates)
 </div>
 <div class="col-lg-6"><video controls autoplay muted loop src="/videos/Musical-Loop-NFTs.mp4" width="100%"></video></div>
+</div>
+
+<div class="row my-5 py-5" >
+{{< figure src="/images/mockups.gif" class="col-lg-6 pt-5" width="100%" >}}
+<div class="col-lg-6">
+
+## Not Just Pictures
+
+### <small class="text-muted">have fun with </small> Musical Loops
+
+Every BandHorse Fren has it's own page in **BandHorses Web3 dApp** <i class="bi bi-arrow-repeat"></i> is specialy connects to your wallet and display all details about owned collection.
+
+[Learn more about dApp in Fun Tour page <i class="bi bi-arrow-right-short"></i>](/tour-dates)
+</div>
 </div>
 
 [1]: #musical-loop-nfts "Musical Loop NFTs"
