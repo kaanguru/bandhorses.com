@@ -44,7 +44,7 @@ One of their unique traits turned out to be a 16 beats loop of a musical phrase.
 </div>
 
 <div class="row my-5 py-5" >
-<div class="col-lg-6" ><video autoplay muted loop src="/videos/layers-flipped.mp4" width="100%" ></video></div>
+<div class="col-lg-6 pt-5" ><video autoplay muted loop src="/videos/layers-flipped.mp4" width="100%" ></video></div>
 <div class="col-lg-6">
 
 ## Rarity
