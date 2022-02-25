@@ -12,6 +12,18 @@
 {{ partial "footer/esbuild" (dict "src" "js/gallery.js" "load" "async" "transpile" false) -}}
 {{ end }}
 */}}
-{{ if eq .Type "utility" }}
+
+<!-- Chat button -->
+{{ if eq .Page.RelPermalink "/utility/faq/"}}
   {{ partial "footer/esbuild" (dict "src" "js/tawk.js" "load" "async" "transpile" false) -}}
+{{ end }}
+<!-- flicker fx -->
+{{ if .Page.IsHome  }}
+{{ $flickerInit := resources.Get "js/flicker.js" | js.Build | minify -}}
+<script> {{ $flickerInit.Content | safeJS }}</script>
+{{ end }}
+<!-- scroll to top -->
+{{ if or  .Page.IsHome (eq .Page.RelPermalink "/utility/rarity/") (eq .Page.RelPermalink "/utility/faq/")}}
+{{ $scrollInit := resources.Get "js/scroll.js" | js.Build | minify -}}
+<script> {{ $scrollInit.Content | safeJS }}</script>
 {{ end }}

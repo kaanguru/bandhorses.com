@@ -12,14 +12,3 @@ import 'lazysizes';
 // global alert
 import './assets/js/alert';
 import './assets/js/traits';
-import { startFlickerBackgroundInterval } from './assets/js/flicker';
-import { displayToTopButton } from './assets/js/scroll-top';
-
-// if dom loaded
-document.addEventListener('DOMContentLoaded', () => {
-    console.info('DOM loaded');
-    startFlickerBackgroundInterval();
-    window.onscroll = () => {
-        displayToTopButton(500);
-    };
-});
