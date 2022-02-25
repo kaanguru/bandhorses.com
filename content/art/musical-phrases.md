@@ -7,12 +7,12 @@ draft: false
 images: []
 ---
 <div class="row my-5 py-5" >
-<div class="col-lg-6 pt-5">
+<div class="col-lg-6">
 Holders will have seamless looping, 16 beats of unique musical phrases by having a BandHorse friend.
 Musical phrases are just motifs and patterns. Loops are not full compositions. They have more use cases. They can be used in combination with different musical genres.
 
 </div>
-{{< figure src="/images/unique.jpg" class="col-lg-6 " width="100%"  >}}
+{{< figure src="/images/unique.jpg" class="col-lg-6 pt-3" width="100%"  >}}
 </div>
 
 <div class="row my-5 py-5" >
