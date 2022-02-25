@@ -27,23 +27,36 @@
     transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
+
     .navbar-nav {
       padding: 1rem;
-
+      .nav-item {
+        font-family: $headings-font-family;
+        letter-spacing: 0.5rem;
+      }
       .nav-link {
-        font-weight: 700;
+        font-weight: 400;
         padding: 1.5rem 1rem;
         border-bottom: 1px solid $light-blue;
-        font-size: $font-size-lg;
-        letter-spacing: 0.33rem;
+        font-size: $font-size-md;
+        letter-spacing: 0.5rem;
+      }
+      .nav-link:hover {
+        font-weight: 500;
+        color: $smoky-black;
+        border-bottom: 1px solid $independence;
       }
       .dropdown-menu {
         background-color: transparentize($color: $alice-blue, $amount: 0.3);
         border: none;
         .dropdown-item {
+          font-family: $font-family-base;
           background-color: transparent;
           color: $independence;
           padding-left: 2rem !important;
+          .active {
+            color: $primary;
+          }
         }
       }
     }
@@ -59,7 +72,7 @@
       padding: 0rem;
 
       .nav-link {
-        font-size: $font-size-md;
+        font-size: $font-size-lg;
         letter-spacing: 0.33rem;
         border: none;
       }
@@ -68,7 +81,6 @@
         margin-top: -2vh;
         .dropdown-item {
           background-color: transparentize($color: $alice-blue, $amount: 0.2);
-          color: $independence;
         }
       }
     }

@@ -10,7 +10,7 @@ images: []
 #### Some captivating stuff will be arriving soon.
 
 <div class="row my-5 py-5">
-{{< figure src="/images/10.png" class="col-lg-6 pt-5" width="100%" >}}
+{{< figure src="/images/10.webp" class="col-lg-6 pt-5" width="100%" >}}
 <div class="col-lg-6  my-5 py-5">
 
 288 hand-drawn photoshop layers generated one of 4444 horse drawings.

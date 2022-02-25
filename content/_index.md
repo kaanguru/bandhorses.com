@@ -16,11 +16,11 @@ Shhhh... Did you hear that? These rhythmical beats? Someone is tapping on the bl
 [Learn more about BandFrenz <i class="bi bi-arrow-right-short"></i>](/tour-dates)
 
 </div>
-{{< figure src="/images/drummergirl.png" class="col-lg-6 pt-5 " width="100%"  >}}
+{{< figure src="/images/drummergirl.webp" class="col-lg-6 pt-5 " width="100%"  >}}
 </div>
 
 <div class="row my-5 py-5">
-{{< figure src="/images/copy-drawing.png" class="col-lg-6 pt-5" width="100%" >}}
+{{< figure src="/images/copy-drawing.webp" class="col-lg-6 pt-5" width="100%" >}}
 <div class="col-lg-6  my-5 py-5">
 
 ## 1 : 4 4 4 4 Generative Art

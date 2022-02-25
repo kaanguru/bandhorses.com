@@ -16,6 +16,6 @@ All info is in the official non-fungible tokens metadata standard of Ethereum. A
 
 {{< figure src="/images/mediaInfo.png" class="pt-5" >}}
 </div>
-{{< figure src="/images/metaData.png" class="col-lg-6 pt-5" >}}
+{{< figure src="/images/metaData.webp" class="col-lg-6 pt-5" >}}
 
 </div>
