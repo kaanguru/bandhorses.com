@@ -5,3 +5,5 @@ draft: false
 ---
 
 {{% faq %}}
+
+If you can not find answer for your question do not hesitate to contact [support](https://tawk.to/bandhorses)

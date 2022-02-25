@@ -1,22 +1,21 @@
-<section class="text-center">
+
 <div class="row">
 <div class="col-lg">
 {{ range $.Site.Data.faqs.faq }}
 {{ $questionCode :=    replace (slicestr (.question | safeHTML) 3 9) " " "-" }}
 <p>
-<a class="btn my-2 w-100 btn-primary" data-bs-toggle="collapse" href="#id{{- $questionCode -}}" role="button" aria-expanded="false" aria-controls="id{{- $questionCode -}}">
+<a class="btn my-2 w-100 btn-primary fs-4" data-bs-toggle="collapse" href="#id{{- $questionCode -}}" role="button" aria-expanded="false" aria-controls="id{{- $questionCode -}}">
 {{ .question | safeHTML }}
     </a>
 </p>
 <div class="collapse  mx-auto multi-collapse" id="id{{- $questionCode -}}">
-<div class="card card-body">
+<p>
 {{ .answer | safeHTML }}
-</div>
+</p>
 </div>
 {{ end }} 
 </div>
 
 </div>
-</section>
 
-If you can not find answer for your question do not hesitate to contact [support](https://tawk.to/bandhorses)
+

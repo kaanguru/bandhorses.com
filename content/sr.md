@@ -23,3 +23,7 @@ Although staking has already been introduced by the Beacon Chain, the Ethereum w
 </div>
 
 With the Beacon Chain up and running, work has begun on merging Mainnet with the new consensus layer. Mainnet will then be secured by staked ETH and far less energy intensive.
+
+#### Benefits of staking to Ethereum
+
+Staking iss  **More sustainable** Validators don’t need energy-intensive computers in order to participate in a proof-of-stake system – just a laptop or smartphone. This will make Ethereum better for the environment.

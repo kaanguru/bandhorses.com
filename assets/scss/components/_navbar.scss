@@ -42,9 +42,9 @@
         letter-spacing: 0.5rem;
       }
       .nav-link:hover {
-        font-weight: 500;
         color: $smoky-black;
-        border-bottom: 1px solid $independence;
+        border-bottom: 1px solid $primary;
+        text-shadow: 1px 1px 10px $primary, 1px 1px 10px $white;
       }
       .dropdown-menu {
         background-color: transparentize($color: $alice-blue, $amount: 0.3);

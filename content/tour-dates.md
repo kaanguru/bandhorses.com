@@ -95,10 +95,8 @@ images: []
 
 ## 2023
 
-### Benefits of staking to Ethereum
 
-#### More sustainable
-
-Validators don’t need energy-intensive computers in order to participate in a proof-of-stake system – just a laptop or smartphone. This will make Ethereum better for the environment.
 
 <a href="https://plan.toggl.com/#pp/sB5RhAuXHTs0Q_CXmHY9A_bsSEk5bdZr" target="_blank">Details of Plan </a>
+
+[WhiteList Request Form](https://form.jotform.com/220403084309042)
