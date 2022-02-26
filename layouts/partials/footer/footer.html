@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row ">
       <div class="col-md-6 ">
-        <p class="m-0 text-light">{{ .Site.Params.footer | safeHTML }}</p>
+        <p class="text-light">{{ .Site.Params.footer | safeHTML }}</p>
         <ul class="nav list-unstyled d-flex">
           {{ $currentPage := . }}
           {{ range site.Menus.social }}
