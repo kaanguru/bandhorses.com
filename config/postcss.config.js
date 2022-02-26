@@ -20,7 +20,13 @@ module.exports = {
         'td',
         'h3',
         'alert-link',
+        'bi-link-45deg',
         'bi-twitter',
+        'bi-discord',
+        'bi-medium',
+        'bi-pinterest',
+        'bi-youtube',
+        'bi-vimeo',
         ...whitelister([
           './assets/scss/components/_alerts.scss',
           // './assets/scss/components/_buttons.scss',
