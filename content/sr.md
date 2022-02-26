@@ -19,6 +19,8 @@ images: []
 
 Although staking has already been introduced by the Beacon Chain, the Ethereum we use today will run in parallel for a period of time. One system secured by ETH, the other by computing power. This is until The Merge.
 
+#### BNH public minting starts; whenever the Ethereum Merge will be ready for the Mainnet release
+
 </div>
 </div>
 
