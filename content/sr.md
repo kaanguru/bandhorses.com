@@ -11,7 +11,7 @@ images: []
 
 ### Ethereum is moving towards being secured by staking <small class="text-muted">not computing power</small>
 
-<div class="row py-2">
+<div class="row py-5">
 
 {{< figure src="/images/wild-horse.webp" class="col-lg-6 " width="100%"  >}}
 
@@ -38,7 +38,16 @@ Staking is **More sustainable** 🌲 Validators don’t need energy-intensive co
 1. We Support Indipendent Musicians   🎵
 1. NFT holders will vote for organisations to donate
 
-Starting from 3rd quarter of 2023; every month *7 BandHorses will be sold to collect capital for donations*   There are lots of Nature Conservation organisations. Every month NFT holders will decide where to donate.
+<div class="row py-5">
+<div class="col-lg-6 ">
+
+Starting from 3rd quarter of 2023;
+
+Every month *7 BandHorses will be sold to collect capital for donations* Every month NFT holders will decide which Nature Conservation  organisations to donate.
+
+</div>
+{{< figure src="/images/donations-2023.webp" class="col-lg-6 " width="100%"  >}}
+</div>
 
 ### Why we need you?
 
