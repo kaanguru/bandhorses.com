@@ -6,6 +6,7 @@
     <div class="row ">
       <div class="col-md-6 ">
         <p class="text-light">{{ .Site.Params.footer | safeHTML }}</p>
+        <h5  class="text-muted text-start text-white"> Wanna join? Follow us </h5>
         <ul class="nav list-unstyled d-flex">
           {{ $currentPage := . }}
           {{ range site.Menus.social }}

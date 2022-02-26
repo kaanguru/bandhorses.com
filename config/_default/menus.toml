@@ -40,23 +40,23 @@ weight = 10
 name = "twitter"
 url = "https://twitter.com/bandhorsesNFT"
 weight = 20
-[[social]]
-name = "discord"
-url = "https://discord.gg/UyaJspUaSZ"
-weight = 30
-[[social]]
-name = "medium"
-url = "https://medium.com/@bandhorses"
-weight = 40
-[[social]]
-name = "pinterest"
-url = "https://www.pinterest.com/bandhorses/"
-weight = 50
-[[social]]
-name = "youtube"
-url = "https://d.tube/c/bandhorses00"
-weight = 60
-[[social]]
-name = "vimeo"
-url = "https://vimeo.com/user165460933"
-weight = 70
+# [[social]]
+# name = "pinterest"
+# url = "https://www.pinterest.com/bandhorses/"
+# weight = 30
+# [[social]]
+# name = "discord"
+# url = "https://discord.gg/UyaJspUaSZ"
+# weight = 40
+# [[social]]
+# name = "medium"
+# url = "https://medium.com/@bandhorses"
+# weight = 50
+# [[social]]
+# name = "youtube"
+# url = "https://d.tube/c/bandhorses00"
+# weight = 60
+# [[social]]
+# name = "vimeo"
+# url = "https://vimeo.com/user165460933"
+# weight = 70
