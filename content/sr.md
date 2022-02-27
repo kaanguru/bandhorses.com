@@ -19,6 +19,8 @@ images: []
 
 Although staking has already been introduced by the Beacon Chain, the Ethereum we use today will run in parallel for a period of time. One system secured by ETH, the other by computing power. This is until The Merge.
 
+[Details for Energy and ETH](https://ethereum.org/en/energy-consumption/)
+
 #### BNH public minting starts; whenever the Ethereum Merge will be ready for the Mainnet release
 
 </div>
@@ -26,9 +28,16 @@ Although staking has already been introduced by the Beacon Chain, the Ethereum w
 
 With the Beacon Chain up and running, work has begun on merging Mainnet with the new consensus layer. Mainnet will then be secured by staked ETH and far less energy intensive.
 
+<div class="row py-2">
+<div class="col-lg-6 ">
+
 #### Benefits of staking to Ethereum
 
 Staking is **More sustainable** 🌲 Validators don’t need energy-intensive computers in order to participate in a proof-of-stake system – just a laptop or smartphone. This will make Ethereum better for the environment.
+
+</div>
+{{< figure src="/images/energy_use_per_transaction.webp" class="col-lg-6 " width="100%"  >}}
+</div>
 
 ## Core Values of Band Horses
 
@@ -39,6 +48,8 @@ Staking is **More sustainable** 🌲 Validators don’t need energy-intensive co
 1. NFT holders will vote for organisations to donate
 
 <div class="row py-5">
+{{< figure src="/images/donations-2023.webp" class="col-lg-6 " width="100%"  >}}
+
 <div class="col-lg-6 ">
 
 Starting from 3rd quarter of 2023;
@@ -46,7 +57,6 @@ Starting from 3rd quarter of 2023;
 Every month *7 BandHorses will be sold to collect capital for donations* Every month NFT holders will decide which Nature Conservation  organisations to donate.
 
 </div>
-{{< figure src="/images/donations-2023.webp" class="col-lg-6 " width="100%"  >}}
 </div>
 
 ### Why we need you?
