@@ -32,6 +32,11 @@ url = "/tour-dates"
 weight = 30
 
 
+[[footer]]
+name = "Partnership"
+url = "https://form.jotform.com/220570593472962"
+weight = 10
+
 [[social]]
 name = "link-45deg"
 url = "https://links.bandhorses.com"
