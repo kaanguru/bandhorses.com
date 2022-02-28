@@ -75,7 +75,36 @@ a:hover {
   background-color: $alice-blue;
   margin: 1rem;
 }
-
+.tour-dates {
+  background-image: url("/images/tickets.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  #content {
+    background-color: #fffb;
+  }
+}
+.utility {
+  background-image: url("/images/concretebg.webp");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  #content {
+    background-color: #fffc;
+  }
+}
+.wagmi {
+  background-image: url("/images/sandbg.webp");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  #content {
+    background-color: #fffc;
+  }
+}
 @include media-breakpoint-up(md) {
   body {
     font-size: $font-size-lg;

@@ -21,10 +21,10 @@ Although staking has already been introduced by the Beacon Chain, the Ethereum w
 
 [Details for Energy and ETH](https://ethereum.org/en/energy-consumption/)
 
-#### BNH public minting starts; whenever the Ethereum Merge will be ready for the Mainnet release
+</div>
+</div>
 
-</div>
-</div>
+#### BNH public minting starts; whenever the Ethereum Merge will be ready for the Mainnet release
 
 With the Beacon Chain up and running, work has begun on merging Mainnet with the new consensus layer. Mainnet will then be secured by staked ETH and far less energy intensive.
 

@@ -18,5 +18,17 @@ table {
   th {
     border: 1px solid #ddd;
     padding: 8px;
+    a {
+      display: flex;
+      flex: 1 1 auto;
+    }
+  }
+}
+@include media-breakpoint-up(md) {
+  table {
+    td,
+    th {
+      padding: 1rem 2rem;
+    }
   }
 }

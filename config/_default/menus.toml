@@ -19,12 +19,12 @@ weight = 20
 [[main]]
 parent = "WAGMI"
 name = "Responsible Frenz"
-url = "/sr"
+url = "/wagmi/sr"
 weight = 22
 [[main]]
 parent = "WAGMI"
 name = "Tokenomics"
-url = "/tokenomics"
+url = "/wagmi/tokenomics"
 weight = 24
 [[main]]
 name = "Fun Tour"
