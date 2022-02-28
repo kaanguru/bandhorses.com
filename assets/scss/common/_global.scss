@@ -105,6 +105,130 @@ a:hover {
     background-color: #fffc;
   }
 }
+.timeline {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0;
+  .cntnr::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    top: calc(50% - 1px);
+    right: 8px;
+    background: $primary;
+    z-index: 1;
+  }
+  .cntnr.right::after {
+    left: -8px;
+  }
+  .cntnr::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: calc(50% - 8px);
+    right: -8px;
+    background: $alice-blue;
+    border: 2px solid $primary;
+    border-radius: 16px;
+    z-index: 1;
+  }
+  .cntnr.right::before {
+    left: 8px;
+  }
+  .cntnr.right {
+    left: 50%;
+  }
+  .cntnr.left {
+    left: 0;
+  }
+  .cntnr {
+    padding: 15px 30px;
+    position: relative;
+    background: inherit;
+    width: 50%;
+  }
+  .cntnr.right .date {
+    left: -8rem;
+  }
+  .cntnr.left .date {
+    right: -8rem;
+  }
+  .cntnr .date {
+    line-height: 1;
+    position: absolute;
+    display: inline-block;
+    top: calc(50% - 8px);
+    text-align: center;
+    font-size: $font-size-md;
+    font-weight: bold;
+    color: $primary;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 1;
+  }
+  .cntnr .bi {
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    top: calc(50% - 20px);
+    background: $snow;
+    border: 2px solid $primary;
+    border-radius: 40px;
+    text-align: center;
+    font-size: $font-size-md;
+    color: $primary;
+    z-index: 1;
+  }
+  .cntnr.right .bi {
+    left: 53px;
+  }
+  .cntnr .cntnt {
+    text-align: left;
+    padding: 1rem 4rem 1rem 1rem;
+    background: $alice-blue;
+    position: relative;
+    border-radius: 50px 500px 500px 50px;
+    h2 {
+      margin: 0 0 0.5rem 3rem;
+      line-height: 1;
+      color: $independence;
+    }
+    p {
+      margin: 0;
+      font-size: $font-size-sm;
+      line-height: 22px;
+      color: $smoky-black;
+      a {
+        font-size: $font-size-md;
+      }
+    }
+    .row .col p:last-child {
+      padding-bottom: 0;
+    }
+  }
+  .cntnr.left .bi {
+    right: 56px;
+  }
+  .cntnr.right .cntnt {
+    padding: 20px 20px 20px 90px;
+    border-radius: 500px 50px 50px 500px;
+  }
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background: $primary;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
 @include media-breakpoint-up(md) {
   body {
     font-size: $font-size-lg;

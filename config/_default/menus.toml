@@ -27,6 +27,11 @@ name = "Tokenomics"
 url = "/wagmi/tokenomics"
 weight = 24
 [[main]]
+parent = "WAGMI"
+name = "Crew"
+url = "/wagmi/crew"
+weight = 26
+[[main]]
 name = "Fun Tour"
 url = "/tour-dates"
 weight = 30

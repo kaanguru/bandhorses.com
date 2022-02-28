@@ -83,5 +83,85 @@ Every BandHorse Fren has it's own page in **BandHorses Web3 dApp** <i class="bi 
 </div>
 </div>
 
+<div class="timeline">
+
+  <div class="cntnr right">
+ <div class="date">Dec, 2021</div>
+ <i class="bi bi-megaphone-fill"></i>
+ <div class="cntnt">
+   <h2>Announced</h2>
+   <p><a href="/tour-dates/#2021">2021 Research Phase</a> Finished</p>
+ </div>
+  </div>
+  
+  <div class="cntnr left">
+ <div class="date">Mar, 2022</div>
+ <i class="bi bi-people-fill"></i>
+ <div class="cntnt">
+   <h2>Current Status</h2>
+   <p>
+  <a href="/tour-dates/#current-status">Running into veins</a>
+   </p>
+ </div>
+  </div>
+  
+  <div class="cntnr right">
+ <div class="date" >May, 2022</div>
+ <i class="bi bi-hammer"></i>
+ <div class="cntnt">
+   <h2>Tapping Bandhorses</h2>
+   <p>
+  <a href="/tour-dates/#tapping-bandhorses">4 4 4 4 Fun Tapping Percussionist Band Horses</a>
+   </p>
+ </div>
+  </div>
+  
+  <div class="cntnr left">
+   <div class="date" >Aug, 2022</div>
+   <i class="bi bi-fingerprint"></i>
+   <div class="cntnt">
+  <h2>Name Your Horses</h2>
+  <p>
+   <a href="/tour-dates/#name-your-horses">Horses are mature enough</a>
+  </p>
+   </div>
+ </div>
+  
+  <div class="cntnr right">
+ <div class="date" >Oct, 2022</div>
+ <i class="bi bi-music-note-list"></i>
+
+ <div class="cntnt">
+   <h2>Unusual Time Signatured Horses</h2>
+   <p>
+  <a href="/tour-dates/#unusual-time-signatured-horses">Second generation horses</a>
+   </p>
+ </div>
+  </div>
+  
+ <div class="cntnr left">
+ <div class="date" >2023</div>
+ <i class="bi bi-bar-chart-line-fill"></i>
+ <div class="cntnt">
+   <h2>Future Horse Generations</h2>
+   <p>
+ <a href="/tour-dates/#future-horse-generations"> Future of BandHorses</a>
+   </p>
+ </div>
+  </div>
+  
+ <div class="cntnr right">
+ <div class="date" >2024, 2025</div>
+ <i class="bi bi-stars"></i>
+ <div class="cntnt">
+   <h2>Future implementations</h2>
+   <p>
+  <a href="/tour-dates/#2024--2025"> 4444 singing 🐳  🐬  🐦</a>
+   </p>
+ </div>
+  </div>
+  
+ </div>
+
 [1]: #musical-loop-nfts "Musical Loop NFTs"
 [2]: /utility/rarity/ "Rarity"
