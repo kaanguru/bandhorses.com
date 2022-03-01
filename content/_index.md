@@ -6,7 +6,7 @@ lastmod: 2022-02-11T13:48:19+03:00
 draft: false
 images: []
 ---
-<div class="row my-5 py-5" >
+<!-- <div class="row my-5 py-5" >
 <div class="col-lg-6">
 
 ## <small class="text-muted">4 4 4 4 Fun </small> Band Horses
@@ -82,7 +82,7 @@ Every BandHorse Fren has it's own page in **BandHorses Web3 dApp** <i class="bi 
 [Learn more about dApp in Fun Tour page <i class="bi bi-arrow-right-short"></i>](/tour-dates)
 </div>
 </div>
-
+ -->
 <div class="timeline">
 
   <div class="cntnr right">
@@ -131,37 +131,34 @@ Every BandHorse Fren has it's own page in **BandHorses Web3 dApp** <i class="bi 
  <div class="date" >Oct, 2022</div>
  <i class="bi bi-music-note-list"></i>
 
- <div class="cntnt">
+  <div class="cntnt">
    <h2>Unusual Time Signatured Horses</h2>
    <p>
   <a href="/tour-dates/#unusual-time-signatured-horses">Second generation horses</a>
    </p>
  </div>
   </div>
-  
- <div class="cntnr left">
- <div class="date" >2023</div>
- <i class="bi bi-bar-chart-line-fill"></i>
- <div class="cntnt">
-   <h2>Future Horse Generations</h2>
-   <p>
- <a href="/tour-dates/#future-horse-generations"> Future of BandHorses</a>
-   </p>
- </div>
-  </div>
-  
- <div class="cntnr right">
- <div class="date" >2024, 2025</div>
- <i class="bi bi-stars"></i>
- <div class="cntnt">
-   <h2>Future implementations</h2>
-   <p>
-  <a href="/tour-dates/#2024--2025"> 4444 singing 🐳  🐬  🐦</a>
-   </p>
- </div>
-  </div>
-  
- </div>
 
-[1]: #musical-loop-nfts "Musical Loop NFTs"
-[2]: /utility/rarity/ "Rarity"
+  <div class="cntnr left">
+    <div class="date" >2023</div>
+    <i class="bi bi-bar-chart-line-fill"></i>
+    <div class="cntnt">
+      <h2>Future Horse Generations</h2>
+      <p>
+        <a href="/tour-dates/#future-horse-generations"> Future of BandHorses</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="cntnr right">
+    <div class="date" >2024, 2025</div>
+    <i class="bi bi-stars"></i>
+    <div class="cntnt">
+      <h2>Future implementations</h2>
+      <p>
+        <a href="/tour-dates/#2024--2025"> 4444 singing 🐳  🐬  🐦</a>
+      </p>
+    </div>
+  </div>
+  
+</div>

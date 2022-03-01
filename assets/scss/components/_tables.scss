@@ -9,14 +9,26 @@ table {
     color: white;
   }
   tr:hover {
-    background-color: #ddd;
+    background-color: $independence;
+    color: $gray-light;
+    a {
+      color: $gray-light;
+    }
+  }
+
+  tr:nth-child(even):hover {
+    background-color: $independence;
+    color: $gray-light;
+    a {
+      color: $gray-light;
+    }
   }
   tr:nth-child(even) {
     background-color: #f2f2f2;
   }
   td,
   th {
-    border: 1px solid #ddd;
+    border: 1px solid $independence;
     padding: 8px;
     a {
       display: flex;
