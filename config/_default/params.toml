@@ -7,7 +7,7 @@ titleAddition = "The Official Website of Band Horses | Not Just Pictures!"
 description = "The Band Horses are collectible musical NFTs. There are 4444 of them tapping on the blockchain."
 
 ## Open Graph
-images = ["BNH-Site.png"]
+images = ["BNH-Site.jpg"]
 ogLocale = "en_US"
 titleHome = "Band Horses"
 
@@ -25,7 +25,7 @@ schemaLocale = "en-US"
 schemaLogo = "band-horses-logo.png"
 schemaLogoWidth = 244
 schemaLogoHeight = 90
-schemaImage = "BNH-Site.png"
+schemaImage = "BNH-Site.jpg"
 schemaImageWidth = 1366
 schemaImageHeight = 768
 schemaTwitter = "https://twitter.com/bandhorsesNFT"

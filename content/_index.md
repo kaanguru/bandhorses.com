@@ -6,7 +6,7 @@ lastmod: 2022-02-11T13:48:19+03:00
 draft: false
 images: []
 ---
-<!-- <div class="row my-5 py-5" >
+<div class="row my-5 py-5" >
 <div class="col-lg-6">
 
 ## <small class="text-muted">4 4 4 4 Fun </small> Band Horses
@@ -82,7 +82,7 @@ Every BandHorse Fren has it's own page in **BandHorses Web3 dApp** <i class="bi 
 [Learn more about dApp in Fun Tour page <i class="bi bi-arrow-right-short"></i>](/tour-dates)
 </div>
 </div>
- -->
+
 <div class="timeline">
 
   <div class="cntnr right">
@@ -111,7 +111,7 @@ Every BandHorse Fren has it's own page in **BandHorses Web3 dApp** <i class="bi 
  <div class="cntnt">
    <h2>Tapping Bandhorses</h2>
    <p>
-  <a href="/tour-dates/#tapping-bandhorses">4 4 4 4 Fun Tapping Percussionist Band Horses</a>
+  <a href="/tour-dates/#tapping-bandhorses">4444 Fun Tapping Percussionists</a>
    </p>
  </div>
   </div>
