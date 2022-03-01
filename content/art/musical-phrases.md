@@ -12,7 +12,7 @@ Holders will have seamless looping, 16 beats of unique musical phrases by having
 Musical phrases are just motifs and patterns. Loops are not full compositions. They have more use cases. They can be used in combination with different musical genres.
 
 </div>
-{{< figure src="/images/unique.jpg" class="col-lg-6 pt-3" width="100%"  >}}
+{{< figure src="/images/unique.webp" class="col-lg-6 pt-3" width="100%"  >}}
 </div>
 
 <div class="row my-5 py-5" >
@@ -27,5 +27,5 @@ Modify midi files to match your production. We will have necessary tutorial vide
 
 **10 different Tempos** Including Lossless FLAC, Ogg, and midi files enable future implementations we can’t envision today.
 </div>
-{{< figure src="/images/ai-generated.png" class="col-lg-6 pt-5"  >}}
+{{< figure src="/images/ai-generated.webp" class="col-lg-6 pt-5"  >}}
 </div>

@@ -14,7 +14,7 @@ images: []
 
 All info is in the official non-fungible tokens metadata standard of Ethereum. And all side-chain files like Ogg and midi files are well tagged for a better organization and uploaded to the interplanetary file system for redundancy. They include tempo, performer horse id, and even midi channel info.
 
-{{< figure src="/images/mediaInfo.png" class="pt-5" >}}
+{{< figure src="/images/mediainfo.webp" class="pt-5" >}}
 </div>
 {{< figure src="/images/metaData.webp" class="col-lg-6 pt-5" >}}
 

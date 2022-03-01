@@ -19,7 +19,7 @@ weight = 20
 [[main]]
 parent = "WAGMI"
 name = "Responsible Frenz"
-url = "/wagmi/sr"
+url = "/wagmi/social-responsibility"
 weight = 22
 [[main]]
 parent = "WAGMI"

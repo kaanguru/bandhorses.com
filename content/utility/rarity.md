@@ -20,7 +20,7 @@ That's why; we include a trait filter for you to see how rare are all horses.
 
 BPM Rarity
 
-![bpm](/images/bpm.png)
+![bpm](/images/bpm.webp)
 
 </div>
 </div>

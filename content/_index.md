@@ -70,7 +70,7 @@ Loop NFTs for blockchain-based collaborative music production of music studios o
 </div>
 
 <div class="row my-5 py-5" >
-{{< figure src="/images/mockups.gif" class="col-lg-6 pt-5" width="100%" >}}
+{{< figure src="/images/mockups.webp" class="col-lg-6 pt-5" width="100%" >}}
 <div class="col-lg-6">
 
 ## Not Just Pictures
@@ -79,7 +79,7 @@ Loop NFTs for blockchain-based collaborative music production of music studios o
 
 Every BandHorse Fren has it's own page in **BandHorses Web3 dApp** <i class="bi bi-arrow-repeat"></i> is specialy connects to your wallet and display all details about owned collection.
 
-[Learn more about dApp in Fun Tour page <i class="bi bi-arrow-right-short"></i>](/tour-dates)
+[Learn more about dApp <i class="bi bi-arrow-right-short"></i>](/tour-dates)
 </div>
 </div>
 

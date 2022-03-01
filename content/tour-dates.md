@@ -160,7 +160,7 @@ Future implementations which we do not know yet but future generations will find
 
 ## 2022 Readiness Checklist
 
-{{< figure src="/images/mockups.webp" class="pt-5" width="100%" >}}
+{{< figure src="/images/mockup.webp" class="pt-5" width="100%" >}}
 
 <div class="row">
 <div class="col bg-primary text-light">
