@@ -12,7 +12,7 @@ images: []
 {{< figure src="/images/tokenomics-gra.webp" class="col-lg-6 " width="100%"  >}}
 <div class="col-lg-6 ">
 
-- After Minting 2666 BNH horses will reveal
+- After Minting 2666 TBNH horses will reveal
 
 - Core Development and Donation Wallets can not sell their share until the specified date
 
@@ -26,7 +26,7 @@ images: []
 <div class="row py-2">
 <div class="col-lg-6 pt-5">
 
-## 4444 BNH will get revealed after all are minted
+## 4444 TBNH will get revealed after all are minted
 
 </div>
 {{< figure src="/images/tokenomics-perc.webp" class="col-lg-6 " width="100%"  >}}
@@ -34,7 +34,7 @@ images: []
 
 ### All holders Can Join closed <i class="bi bi-discord"></i> and <i class="bi bi-telegram"></i> Groups
 
-- <i class="bi bi-chat-dots-fill"></i> Holders who has more than 3 BNH Can Vote for CHARITIES to donate every month
+- <i class="bi bi-chat-dots-fill"></i> Holders who has more than 3 TBNH Can Vote for CHARITIES to donate every month
 - <i class="bi bi-bag-check-fill"></i> Gold Holders can only get whitelisted in bassist (Nickering) BandHorses Pre-Sale
 - <i class="bi bi-bag-check-fill"></i> Whale Holders can only get whitelisted in all BandHorses projects
 
@@ -46,8 +46,8 @@ images: []
 <th></th>
 <th><i class="bi bi-discord"></i>  <i class="bi bi-telegram"></i> </th>
 <th>Can Vote <i class="bi bi-chat-dots-fill"></i> </th>
-<th>Bassist BNH<i class="bi bi-bag-check-fill"></i></th>
-<th>Mutant BNH<i class="bi bi-bag-check-fill"></i></th>
+<th>Bassist TBNH<i class="bi bi-bag-check-fill"></i></th>
+<th>Mutant TBNH<i class="bi bi-bag-check-fill"></i></th>
 </tr>
 </thead>
 <tbody>
