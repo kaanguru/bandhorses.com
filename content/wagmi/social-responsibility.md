@@ -17,7 +17,7 @@ images: []
 
 <div class="col-lg-6 ">
 
-Although staking has already been introduced by the Beacon Chain, the Ethereum we use today will run in parallel for a period of time. One system secured by ETH, the other by computing power. This is until The Merge.
+Although staking has already been introduced by the Beacon Chain, the Ethereum we use today will run in parallel for a period of time. One system secured by ETH, the other by computing power. This is until The Merge 🌱
 
 [Details for Energy and ETH](https://ethereum.org/en/energy-consumption/)
 
@@ -61,5 +61,8 @@ Every month *7 BandHorses will be sold to collect capital for donations* Every m
 
 ### Why we need you?
 
-Your support will increase our commitment to a long-term holistic plan. NFTs are not just profile pictures. Support NFTs with utility. Support Wild Animals and Musicians.
+Your support will increase our commitment to a long-term holistic plan. NFTs are not just profile pictures. Support NFTs with utility.
+
+Support **Independent Wild Musicians & Animals**
+
 Join us on a path to a sustainable future. Together we will decide what this future will be.

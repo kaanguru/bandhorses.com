@@ -11,9 +11,9 @@ draft: false
 <div class="row">
 <div class="col-lg-6 pt-5">
 
-Rarities are one of the most important factos in determining the value of Generative art and Collectible NFTs.
+Rarities are one of the most important factors in determining the value of Generative art and Collectible NFTs.
 
-That's why; we include a trait filter for you to see how rare are all horses.
+That's why, we include a trait filter for you to see  **how rare are horses** 🐴
 
 </div>
 <div class="col-lg-6">
