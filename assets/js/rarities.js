@@ -591,7 +591,7 @@ const tattoo = [
         occurrence: '37 in 4444 editions (0.83 %)',
     },
     {
-        trait: 'Deus',
+        trait: 'DeusExMachina',
         weight: '1',
         occurrence: '30 in 4444 editions (0.68 %)',
     },
