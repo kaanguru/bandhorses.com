@@ -205,8 +205,12 @@ a:hover {
       font-size: $font-size-sm;
       line-height: 22px;
       color: $smoky-black;
+      display: flex;
+      flex: 1 1 auto;
       a {
         font-size: $font-size-sm;
+        display: flex;
+        flex: 1 1 auto;
       }
     }
     .row .col p:last-child {

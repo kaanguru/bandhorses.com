@@ -13,8 +13,8 @@ googleAnalytics = 'G-HWX12D11Z6'
 
 # add redirects/headers
 [outputs]
-# home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
-home = ["HTML", "RSS", "HEADERS"]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+
 
 # remove .{ext} from text/netlify
 [mediaTypes."text/netlify"]
@@ -22,11 +22,11 @@ suffixes = [""]
 delimiter = ""
 
 # add output format for netlify _redirects
-# [outputFormats.REDIRECTS]
-# mediatype = "text/netlify"
-# baseName = "_redirects"
-# isPlainText = true
-# notAlternative = true
+[outputFormats.REDIRECTS]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
 
 # add output format for netlify _headers
 [outputFormats.HEADERS]
