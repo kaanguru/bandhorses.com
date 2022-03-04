@@ -77,7 +77,7 @@ Loop NFTs for blockchain-based collaborative music production of music studios o
 
 ### <small class="text-muted">have fun with </small> Musical Loops
 
-Every BandHorse Fren has it's own page in **BandHorses Web3 dApp** <i class="bi bi-arrow-repeat"></i> is specialy connects to your wallet and display all details about owned collection.
+Every BandHorse Fren has its own page in **BandHorses Web3 dApp** <i class="bi bi-arrow-repeat"></i> it connects to your wallet and displays all details about the owned collection.
 
 [Learn more about dApp <i class="bi bi-arrow-right-short"></i>](/tour-dates)
 </div>
