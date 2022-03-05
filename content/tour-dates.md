@@ -23,7 +23,7 @@ images: []
 <tr>
 <tr>
 <td>May</td>
-<td><a href="#tapping-bandhorses">Tapping Bandhorses</a></td>
+<td><a href="#tapping-bandhorses">4444 Tapping Bandhorses</a></td>
 </tr>
 <tr>
 <td>Aug</td>
@@ -31,11 +31,11 @@ images: []
 </tr>
 <tr>
 <td>Oct</td>
-<td><a href="#unusual-time-signatured-horses">Unusual Time Signatured Horses</a></td>
+<td><a href="#unusual-time-signatured-horses">4444 Unusual Time Signatured Horses</a></td>
 </tr>
 <tr>
 <td>2023</td>
-<td><a href="#future-horse-generations">Future Horse Generations</a></td>
+<td><a href="#future-horse-generations">13332 Future Horse Generations</a></td>
 </tr>
 <tr>
 <td>2024</td>
