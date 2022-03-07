@@ -19,5 +19,3 @@ images: []
 </div>
 
 ------------
-
-{{% whitelist %}}
