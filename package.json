@@ -62,7 +62,7 @@
     "stylelint-config-standard-scss": "^3.0"
   },
   "otherDependencies": {
-    "hugo": "0.92.1"
+    "hugo": "0.93.2"
   },
   "dependencies": {}
 }
