@@ -72,7 +72,7 @@ Process can speed up with  additional team members.
 
 Current progression is faster than expected. Branding and Marketing is over. Smart Contract is almost over and published to TestNET 🕸️  **We will be calling for WhiteList soon**
 
-### We are on Minging dApp development Phase 👨‍💻
+### We are on Minting dApp development Phase 👨‍💻
 
 </div>
 </div>
