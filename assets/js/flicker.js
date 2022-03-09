@@ -1,5 +1,5 @@
 // flicker background
-function startFlickerBackgroundInterval() {
+export function startFlickerBackgroundInterval() {
     const msList = [500, 1000, 545, 300, 600, 480];
     const delayMs = msList[Math.floor(Math.random() * msList.length)];
     let header = document.getElementById("header");
@@ -15,4 +15,4 @@ function startFlickerBackgroundInterval() {
     }
 }
 
-startFlickerBackgroundInterval(); 
+

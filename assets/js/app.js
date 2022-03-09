@@ -13,3 +13,7 @@ import "lazysizes";
 import "./assets/js/alert";
 import "./assets/js/traits";
 import "./assets/js/menu";
+import "./assets/js/scroll";
+
+import { startFlickerBackgroundInterval } from "./assets/js/flicker";
+startFlickerBackgroundInterval(); 

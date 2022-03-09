@@ -5,13 +5,9 @@
 {{ if eq .Page.RelPermalink "/utility/faq/"}}
   {{ partial "footer/esbuild" (dict "src" "js/tawk.js" "load" "async" "transpile" false) -}}
 {{ end }}
-<!-- flicker fx -->
-{{ if .Page.IsHome  }}
-{{ $flickerInit := resources.Get "js/flicker.js" | js.Build | minify -}}
-<script> {{ $flickerInit.Content | safeJS }}</script>
-{{ end }}
+
 <!-- scroll to top -->
-{{ $scrollInit := resources.Get "js/scroll.js" | js.Build | minify -}}
-<script> {{ $scrollInit.Content | safeJS }}</script>
+{{/*  {{ $scrollInit := resources.Get "js/scroll.js" | js.Build | minify -}}
+<script> {{ $scrollInit.Content | safeJS }}</script>  */}}
 {{/*  {{ if or  .Page.IsHome (eq .Page.RelPermalink "/utility/rarity/") (eq .Page.RelPermalink "/utility/faq/")}}
 {{ end }}  */}}
