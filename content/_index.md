@@ -66,7 +66,7 @@ Loop NFTs for blockchain-based collaborative music production of music studios o
 
 [Learn more about future plans <i class="bi bi-arrow-right-short"></i>](/tour-dates)
 </div>
-<div class="col-lg-6"><video controls autoplay muted loop src="/videos/musical-loop-muted.mp4" width="100%"></video></div>
+<div class="col-lg-6"><video controls autoplay muted loop src="/videos/Musical-Loop-NFTs.mp4" width="100%"></video></div>
 </div>
 
 <div class="row my-5 py-5" >
