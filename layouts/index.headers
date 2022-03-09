@@ -2,7 +2,7 @@
   Strict-Transport-Security: max-age=900; includeSubDomains; preload
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 0
-  Content-Security-Policy: default-src 'self'  ; script-src 'self' 'sha512-FoDghFGo6GmwFdQsjzsrZ7hA0gGa2MEBKK9ZL82Tj9W29dG+tL/8dy3ldHRkGsOsg4M35f1wXTmUCsl2GSVWSA==' 'sha512-K8VDg+7c4bJ2crB1lfdzM8xLvkkoqD3rbseOh1MLaCuzFOztbdxIc6tYRFNWsPrL0aR12Z3+NegdlI+Jt9Rb/w==' 'sha512-fsUYFvoVUCviGymOAwdwsK5aHC2slNhk5jfAGMNVPgdezNqRZDMl/7JeKmnuvw0WlRHr9zUGAUKWHkujuApDpQ==' https://embed.tawk.to/ ; img-src  'self'   data: ; font-src 'self' ; style-src  'self' 'unsafe-inline' ; base-uri 'self'; connect-src 'self' ; object-src 'none'; worker-src 'none';
+  Content-Security-Policy: default-src 'self'  ; script-src 'self' 'sha512-iv6WJCSiqbDIG2tKT/ssCwKjo+58KjvAcJfdypyuEpQgGlEafsepOGlOVFQD/kbkQfr8V6DnQ6aosDVkLLek/Q==' 'sha512-FoDghFGo6GmwFdQsjzsrZ7hA0gGa2MEBKK9ZL82Tj9W29dG+tL/8dy3ldHRkGsOsg4M35f1wXTmUCsl2GSVWSA==' 'sha512-K8VDg+7c4bJ2crB1lfdzM8xLvkkoqD3rbseOh1MLaCuzFOztbdxIc6tYRFNWsPrL0aR12Z3+NegdlI+Jt9Rb/w==' 'sha512-fsUYFvoVUCviGymOAwdwsK5aHC2slNhk5jfAGMNVPgdezNqRZDMl/7JeKmnuvw0WlRHr9zUGAUKWHkujuApDpQ==' https://*.tawk.to/ ; img-src  'self'   data: ; font-src 'self' ; style-src  'self' 'unsafe-inline' ; base-uri 'self'; connect-src 'self' ; object-src 'none'; worker-src 'none';
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: same-origin
   Cache-Control: public, max-age=900
