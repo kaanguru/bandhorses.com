@@ -6,10 +6,10 @@ draft: false
 
 {{% faq %}}
 
-If you can not find answer for your question do not hesitate to contact [support](https://tawk.to/bandhorses)
+Couldn't find and answer? Do not hesitate to contact [support](https://tawk.to/bandhorses)
 
-<div class="d-grid gap-2">
-  <button type="button" class="btn btn-secondary text-info">
+<div class="d-grid">
+  <button type="button" class="btn btn-info fs-4">
     <a href="https://tawk.to/bandhorses" target="_blank">Chat With Muse</a>
     </button>
 </div>
