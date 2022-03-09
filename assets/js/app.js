@@ -8,6 +8,7 @@ listen();
 
 // lazy sizes for image loading
 import "lazysizes";
+import yall from "yall-js";
 
 // global alert
 import "./assets/js/alert";
@@ -16,4 +17,5 @@ import "./assets/js/menu";
 import "./assets/js/scroll";
 
 import { startFlickerBackgroundInterval } from "./assets/js/flicker";
-startFlickerBackgroundInterval(); 
+startFlickerBackgroundInterval();
+document.addEventListener("DOMContentLoaded", yall);

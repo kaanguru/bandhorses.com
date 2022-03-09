@@ -57,10 +57,14 @@
           {{ if .Page.IsHome  }}
                 <div id="hero-video" class="text-center">
                     <div class="ratio ratio-16x9 embed-responsive embed-responsive-16by9">
-                            <video class="embed-responsive-item" autoplay muted loop controls>
-                                <source src="/videos/frontpage-present.mp4" type="video/mp4">
+                            <video class="embed-responsive-item d-md-block d-lg-none lazy" preload="none" autoplay muted loop controls playsinline width="640" height="360"  poster="/images/frontpage-present-mob1.webp" >
+                                <source src="/videos/frontpage-present-mob1.mp4"  type="video/mp4">
+                            </video>
+                            <video class="embed-responsive-item d-none d-lg-block lazy" preload="none" autoplay muted loop controls playsinline width="960" height="540"  poster="/images/frontpage-present-mob1.webp"  >
+                                <source src="/videos/frontpage-present.mp4" type="video/mp4" >
                             </video>
                     </div>
+ 
                 </div>
           <a href="#content"  class="mouse-icon animated bounceInDown">
               <img src="/icons/mouse.svg" alt="go down"  height="32" width="32"/></a>  

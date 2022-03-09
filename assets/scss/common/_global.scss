@@ -10,6 +10,7 @@ body {
 }
 .wrap.container {
   padding: 0;
+  width: auto;
 }
 .content {
   padding: 0.4rem;
@@ -198,6 +199,7 @@ a:hover {
       margin: 0;
       line-height: 1;
       color: $independence;
+      font-size: smaller;
     }
     p {
       margin: 0rem;

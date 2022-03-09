@@ -40,11 +40,11 @@ One of their unique traits turned out to be a 16 beats loop of a musical phrase.
 
 [Learn more about Musical Phrases <i class="bi bi-arrow-right-short"></i>](/art/musical-phrases)
 </div>
-<div class="col-lg-6" ><video autoplay muted loop src="/videos/ai-generated.mp4" width="100%" ></video></div>
+<div class="col-lg-6" ><video preload="none" autoplay muted loop src="/videos/ai-generated.mp4" width="100%" loading="lazy"></video></div>
 </div>
 
 <div class="row my-5 py-5" >
-<div class="col-lg-6 pt-5" ><video autoplay muted loop src="/videos/layers-flipped.mp4" width="100%" ></video></div>
+<div class="col-lg-6 pt-5" ><video preload="none" autoplay muted loop src="/videos/layers-flipped.mp4" width="100%" loading="lazy" ></video></div>
 <div class="col-lg-6">
 
 ## Rarity
@@ -66,7 +66,7 @@ Loop NFTs for blockchain-based collaborative music production of music studios o
 
 [Learn more about future plans <i class="bi bi-arrow-right-short"></i>](/tour-dates)
 </div>
-<div class="col-lg-6"><video controls autoplay muted loop src="/videos/Musical-Loop-NFTs.mp4" width="100%"></video></div>
+<div class="col-lg-6"><video preload="none" controls autoplay muted loop src="/videos/Musical-Loop-NFTs.mp4" width="100%" loading="lazy"></video></div>
 </div>
 
 <div class="row my-5 py-5" >
@@ -90,7 +90,7 @@ Every BandHorse Fren has its own page in **BandHorses Web3 dApp** <i class="bi b
  <i class="bi bi-megaphone-fill"></i>
  <div class="cntnt">
    <h2>Announced</h2>
-   <p><a href="/tour-dates/#2021">2021 Research Phase</a> Finished</p>
+   <p><a href="/tour-dates/#2021">2021 Research Phase</a><i class="top-0 start-0 bg-primary bg-gradient text-light bi bi-check-lg"></i></p>
  </div>
   </div>
   
