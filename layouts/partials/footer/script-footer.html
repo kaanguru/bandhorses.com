@@ -1,10 +1,6 @@
 {{ partial "footer/esbuild" (dict "src" "js/bootstrap.js" "load" "async" "transpile" false) -}}
 {{ partial "footer/esbuild" (dict "src" "js/app.js" "targetPath" "main.js" "load" "async" "transpile" false) -}}
 
-<!-- Chat button -->
-{{ if eq .Page.RelPermalink "/utility/faq/"}}
-  {{ partial "footer/esbuild" (dict "src" "js/tawk.js" "load" "async" "transpile" false) -}}
-{{ end }}
 
 <!-- scroll to top -->
 {{/*  {{ $scrollInit := resources.Get "js/scroll.js" | js.Build | minify -}}
