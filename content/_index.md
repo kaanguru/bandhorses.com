@@ -86,21 +86,21 @@ Every BandHorse Fren has its own page in **BandHorses Web3 dApp** <i class="bi b
 <div class="timeline">
 
   <div class="cntnr right">
- <div class="date">Dec, 2021</div>
- <i class="bi bi-megaphone-fill"></i>
+ <div class="date text-primary">Dec, 2021</div>
+ <i class="bi bi-check-circle-fill text-primary" style="padding-left: 0.2rem;" ></i>
  <div class="cntnt">
-   <h2>Announced</h2>
-   <p><a href="/tour-dates/#2021">2021 Research Phase</a><i class="top-0 start-0 bg-primary bg-gradient text-light bi bi-check-lg"></i></p>
+  <p>Announced</p>
+   <p><a  href="/tour-dates/#2021">2021 Research Phase</a></p>
  </div>
   </div>
   
   <div class="cntnr left">
- <div class="date">Mar, 2022</div>
- <i class="bi bi-people-fill"></i>
+ <div class="date text-primary">Mar, 2022</div>
+ <i class="bi bi-check-circle-fill text-primary"></i>
  <div class="cntnt">
-   <h2>Current Status</h2>
+   <p>Current Status</p>
    <p>
-  <a href="/tour-dates/#current-status">Running into veins</a>
+  <a  href="/tour-dates/#current-status">Running into veins</a>
    </p>
  </div>
   </div>
@@ -109,9 +109,9 @@ Every BandHorse Fren has its own page in **BandHorses Web3 dApp** <i class="bi b
  <div class="date" >May, 2022</div>
  <i class="bi bi-hammer"></i>
  <div class="cntnt">
-   <h2>Tapping Bandhorses</h2>
+   <p>Tapping Bandhorses</p>
    <p>
-  <a href="/tour-dates/#tapping-bandhorses">4444 Fun Tapping Percussionists</a>
+  <a class="text-warning" href="/tour-dates/#tapping-bandhorses">4444 Fun Tapping Percussionists</a>
    </p>
  </div>
   </div>
@@ -120,21 +120,21 @@ Every BandHorse Fren has its own page in **BandHorses Web3 dApp** <i class="bi b
    <div class="date" >Aug, 2022</div>
    <i class="bi bi-fingerprint"></i>
    <div class="cntnt">
-  <h2>Name Your Horses</h2>
+  <p>Name Your Horses</p>
   <p>
-   <a href="/tour-dates/#name-your-horses">Horses are mature enough</a>
+   <a class="text-warning" href="/tour-dates/#name-your-horses">Horses are mature enough</a>
   </p>
    </div>
  </div>
   
   <div class="cntnr right">
- <div class="date" >Oct, 2022</div>
+ <div class="date " >Oct, 2022</div>
  <i class="bi bi-music-note-list"></i>
 
   <div class="cntnt">
-   <h2>Unusual Time Signatured Horses</h2>
+   <p>Unusual Time Signatured Horses</p>
    <p>
-  <a href="/tour-dates/#unusual-time-signatured-horses">Second generation horses</a>
+  <a class="text-warning" href="/tour-dates/#unusual-time-signatured-horses">Second generation horses</a>
    </p>
  </div>
   </div>
@@ -143,9 +143,9 @@ Every BandHorse Fren has its own page in **BandHorses Web3 dApp** <i class="bi b
     <div class="date" >2023</div>
     <i class="bi bi-bar-chart-line-fill"></i>
     <div class="cntnt">
-      <h2>Future Horse Generations</h2>
+      <p>Future Horse Generations</p>
       <p>
-        <a href="/tour-dates/#future-horse-generations"> Future of BandHorses</a>
+        <a class="text-warning" href="/tour-dates/#future-horse-generations"> Future of BandHorses</a>
       </p>
     </div>
   </div>
@@ -154,9 +154,9 @@ Every BandHorse Fren has its own page in **BandHorses Web3 dApp** <i class="bi b
     <div class="date" >2024, 2025</div>
     <i class="bi bi-stars"></i>
     <div class="cntnt">
-      <h2>Future implementations</h2>
+      <p>Future implementations</p>
       <p>
-        <a href="/tour-dates/#2024--2025"> 4444 singing 🐳  🐬  🐦</a>
+        <a class="text-warning" href="/tour-dates/#2024--2025"> 4444 singing 🐳  🐬  🐦</a>
       </p>
     </div>
   </div>

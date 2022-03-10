@@ -15,6 +15,9 @@ body {
 .content {
   padding: 0.4rem;
 }
+.section.container-fluid {
+  overflow: hidden;
+}
 h1,
 h2,
 h3,
@@ -37,7 +40,7 @@ h6,
 #content {
   .section {
     background: $gray-200;
-    padding-top: 1rem 0rem;
+    padding: 1rem 0rem;
   }
 }
 .section svg {
@@ -113,6 +116,7 @@ a:hover {
   width: 100%;
   margin: 1rem auto;
   padding: 15px 0;
+  overflow: clip;
   .cntnr::before {
     content: "";
     position: absolute;
@@ -167,7 +171,7 @@ a:hover {
     text-align: center;
     font-size: $font-size-md;
     font-weight: bold;
-    color: $primary;
+    color: $secondary;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -179,11 +183,11 @@ a:hover {
     height: 40px;
     top: calc(50% - 20px);
     background: $snow;
-    border: 2px solid $primary;
+    border: 2px solid $secondary;
     border-radius: 40px;
     text-align: center;
     font-size: $font-size-md;
-    color: $primary;
+    color: $secondary;
     z-index: 1;
   }
   .cntnr.right .bi {
@@ -213,6 +217,7 @@ a:hover {
         font-size: $font-size-sm;
         display: flex;
         flex: 1 1 auto;
+        padding: 0.1rem;
       }
     }
     .row .col p:last-child {
@@ -223,7 +228,7 @@ a:hover {
     right: 1rem;
   }
   .cntnr.right .cntnt {
-    padding: 1rem 1rem 1rem 3rem;
+    padding: 0rem 0rem 0rem 3rem;
     border-radius: 500px 50px 50px 500px;
   }
 }
@@ -255,15 +260,22 @@ a:hover {
     margin-right: auto;
     margin-left: auto;
   }
+  #content {
+    .section {
+      background: $gray-200;
+      padding: $font-size-md $font-size-sm;
+    }
+  }
   .content {
     padding-top: 2rem 0.33rem;
     .timeline {
-      width: 130%;
-      margin: 0 -5.8rem;
+      overflow: visible;
       .cntnr {
-        padding: 1rem;
+        padding: 15px 30px;
+        position: relative;
+        background: inherit;
+        width: 50%;
       }
-
       .cntnr .cntnt {
         h2 {
           margin: 0rem;
@@ -288,8 +300,20 @@ a:hover {
   .h6 {
     margin-bottom: 1.125rem;
   }
+  .section.container-fluid {
+    overflow: visible;
+  }
 }
 @include media-breakpoint-up(lg) {
+  #content {
+    .section.container-fluid {
+      overflow: visible;
+    }
+    .section {
+      background: $gray-200;
+      padding: $font-size-lg $font-size-md;
+    }
+  }
   .content {
     padding: 3rem;
     .timeline {
@@ -351,7 +375,6 @@ a:hover {
         text-align: center;
         font-size: $font-size-md;
         font-weight: bold;
-        color: $primary;
         text-transform: uppercase;
         letter-spacing: 1px;
         z-index: 1;
@@ -367,7 +390,6 @@ a:hover {
         border-radius: 40px;
         text-align: center;
         font-size: $font-size-md;
-        color: $primary;
         z-index: 1;
       }
       .cntnr.right .bi {
