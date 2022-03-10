@@ -53,7 +53,7 @@ Process can speed up with  additional team members.
 
 ## 2021
 
-<div class="p-4 my-4 bg-info text-center">
+<div class="p-4 my-4 bg-info ">
 
 ### 2021 Research Phase *Finished*
 

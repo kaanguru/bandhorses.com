@@ -6,7 +6,7 @@ draft: false
 
 {{% faq %}}
 
-Couldn't find and answer? Do not hesitate to contact [support](https://tawk.to/bandhorses)
+Couldn't find an answer? Do not hesitate to contact [support](https://tawk.to/bandhorses)
 
 <div class="d-grid">
   <button type="button" class="btn btn-info fs-4">
