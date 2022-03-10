@@ -87,7 +87,7 @@ Every BandHorse Fren has its own page in **BandHorses Web3 dApp** <i class="bi b
 
   <div class="cntnr right">
  <div class="date text-primary">Dec, 2021</div>
- <i class="bi bi-check-circle-fill text-primary" style="padding-left: 0.2rem;" ></i>
+ <i class="bi bi-check-circle-fill text-primary border-0 bg-transparent" style="padding-left: 0.9rem;" ></i>
  <div class="cntnt">
   <p>Announced</p>
    <p><a  href="/tour-dates/#2021">2021 Research Phase</a></p>
@@ -96,7 +96,7 @@ Every BandHorse Fren has its own page in **BandHorses Web3 dApp** <i class="bi b
   
   <div class="cntnr left">
  <div class="date text-primary">Mar, 2022</div>
- <i class="bi bi-check-circle-fill text-primary"></i>
+ <i class="bi bi-check-circle-fill text-primary border-0 bg-transparent" style="padding-top: 0.1rem;" ></i>
  <div class="cntnt">
    <p>Current Status</p>
    <p>
