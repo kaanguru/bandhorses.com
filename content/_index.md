@@ -100,7 +100,7 @@ Every BandHorse Fren has its own page in **BandHorses Web3 dApp** <i class="bi b
  <div class="cntnt">
    <p>Current Status</p>
    <p>
-  <a  href="/tour-dates/#current-status">Running into veins</a>
+  <a href="/tour-dates/#current-status">Running into veins</a>
    </p>
  </div>
   </div>
