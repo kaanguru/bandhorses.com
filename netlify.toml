@@ -2,7 +2,7 @@
 publish = "public"
 
 [build.environment]
-HUGO_VERSION = "0.93.2"
+HUGO_VERSION = "0.94.1"
 NODE_VERSION = "16.14.0"
 NPM_VERSION = "8.5.3"
 [context.production]
