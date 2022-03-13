@@ -235,5 +235,3 @@ Future implementations which we do not know yet but future generations will find
 ## 2023
 
 <a href="https://plan.toggl.com/#pp/sB5RhAuXHTs0Q_CXmHY9A_bsSEk5bdZr" target="_blank">Details of Plan </a>
-
-[WhiteList Request Form](https://form.jotform.com/220403084309042)

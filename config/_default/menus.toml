@@ -32,6 +32,11 @@ name = "Crew"
 url = "/wagmi/crew"
 weight = 26
 [[main]]
+parent = "WAGMI"
+name = "Whitelist"
+url = "/whitelist"
+weight = 26
+[[main]]
 name = "Fun Tour"
 url = "/tour-dates"
 weight = 30
