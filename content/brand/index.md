@@ -18,7 +18,6 @@ images: []
 
 </div>
 
-
 ### Musics
 
 <div class="row py-2">
@@ -28,10 +27,10 @@ images: []
 110bpm demo track from Musical Loop NFTs  
 
 <a href="/videos/Musical-Loop-NFTs.mp4" download="Musical-Loop-Demo-Track.mp4">
-    <button type="button" class="btn btn-primary"><i class="bi bi-file-earmark-play-fill"></i> Demo Track.mp4</button>
+    <button type="button" class="btn btn-primary"><i class="bi bi-cloud-arrow-down-fill"></i> Demo Track.mp4 </button>
 </a>
 <a href="/brand/110bpm-track.mp3" download="110bpm-Musical-Loop-Demo-Track.mp3">
-    <button type="button" class="btn btn-primary"><i class="bi bi-cloud-arrow-down-fill"></i> Demo Track.mp3</button>
+    <button type="button" class="btn btn-primary"><i class="bi bi-cloud-arrow-down-fill"></i> Demo Track.mp3 </button>
 </a>
 
 ----
@@ -42,13 +41,11 @@ Hidden Fren Tapping Loop : 4 Bars mp3 format
 **Tempo:** 135 Bpm
 
 <a href="/brand/hidden1.mp4" download="Hidden.mp3">
-    <button type="button" class="btn btn-primary"><i class="bi bi-file-earmark-play-fill"></i> Hidden1.mp4</button>
+    <button type="button" class="btn btn-primary"><i class="bi bi-cloud-arrow-down-fill"></i> Hidden1.mp4 </button>
 </a>
 <a href="/brand/hidden.mp3" download="Hidden.mp3">
-    <button type="button" class="btn btn-primary"><i class="bi bi-cloud-arrow-down-fill"></i> Hidden.mp3</button>
+    <button type="button" class="btn btn-primary"><i class="bi bi-cloud-arrow-down-fill"></i> Hidden.mp3 </i></button>
 </a>
 
-
 </div>
 </div>
-
