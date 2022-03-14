@@ -1,5 +1,5 @@
 ---
-title: "Public Whitelist Information"
+title: "Whitelist"
 description: "Public Whitelist"
 date: 2022-02-11T20:09:56+03:00
 lastmod: 2022-02-11T20:09:56+03:00
@@ -11,7 +11,7 @@ images: []
 |     |
 |--------------------------|-------------|
 | **Avaible NFTs for WhiteList**  | 111 TBNH    |
-| **Per Wallet Limit:**    | 1           |
+| **Per Wallet Limit:**    | 2           |
 | **WhiteList Price:**     | 0.008 <img alt="ETH" style="width: 1.3rem" src="/icons/eth.svg" size="24">  + ⛽|
 | **Total User Entries:**  | 0           |
 | **Total Winners:**       | 0           |
