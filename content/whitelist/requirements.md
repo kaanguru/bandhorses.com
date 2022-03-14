@@ -26,12 +26,12 @@ Do one of the following...
 
 * Be Early
   * Follow us on [Social Media](https://links.bandhorses.com) to catch opportunities!
-* Fan art
-  * Compose music using BandHorses loops
-  * Remix some BandHorses music
-  * Create art from BandHorses hidden images
-* Become an influencer
-  * Use hidden TBNH image as your profile picture
+* Remix Fan Art
+  * Compose music using  [BandHorses loops](/brand/#musics)
+  * Remix some [BandHorses music](/brand/#musics)
+  * Create art from [BandHorses images](/brand/#tbnh-brand-assets)
+* Become An Influencer
+  * Use [The hidden TBNH Fren image](/brand/#tbnh-brand-assets) as your profile picture
   * Post a tweet about the project and mention us bandhorsesNFT. <small class="text-muted">Please share the URL of your tweet in discord tweet-proof channel</small>
 
 ----
