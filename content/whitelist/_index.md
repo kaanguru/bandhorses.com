@@ -6,6 +6,7 @@ lastmod: 2022-02-11T20:09:56+03:00
 draft: false
 images: []
 ---
+
 <div class="table-responsive p-1">
 
 |     |
@@ -39,4 +40,4 @@ Whitelisters have chances to mint the NFT without the need to indulge in a scrum
 
 ### Lowest gas prices
 
-* The gas fee is determined by demand, and if many wish to carry out a transaction at any particular time, it invariably leads to high gas prices.
+The gas fee is determined by demand, and if many wish to carry out a transaction at any particular time, it invariably leads to high gas prices.
