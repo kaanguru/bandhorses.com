@@ -9,11 +9,12 @@ images: []
 
 <div class="card">
 
-## To get listed?
+<h2 class="card-title">To get listed?</h2>
 
 <div class="card-body">
 
 You need a wallet that supports NFTs. <small class="text-muted">The wallet that you use for opensea.io</small>
+
 <div class="list-group">
   <a href="https://metamask.io/" target="_blank" class="list-group-item list-group-item-action">MetaMask <span class="badge bg-primary rounded-pill">Recommended</span></a>
   <a href="https://enjin.io/products/wallet" target="_blank" class="list-group-item list-group-item-action">Enjin Wallet</a>
