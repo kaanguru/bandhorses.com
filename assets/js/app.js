@@ -17,5 +17,8 @@ import "./assets/js/menu";
 import "./assets/js/scroll";
 
 import { startFlickerBackgroundInterval } from "./assets/js/flicker";
-startFlickerBackgroundInterval();
+
+if (document.body.classList.contains("home")) {
+    startFlickerBackgroundInterval();
+}
 document.addEventListener("DOMContentLoaded", yall);

@@ -1,17 +1,16 @@
 {{ define "main" }}
-<div class="row justify-content-center">
-  <div class="col-lg-8">
+<div class=" justify-content-center">
+  <div class="row">
     <h1>{{ .Title }}</h1>
     {{ $paginator := .Paginate (.Data.Pages) -}}
+    <nav class="nav flex-column ms-3">
     {{ range $paginator.Pages -}}
-    <article>
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>   
-    </article>
+      <a class="nav-link" href="{{ .Permalink }}">{{ .Title }}</a>
     {{ end -}}
-    {{ template "_internal/pagination.html" . -}}
+    </nav>
   </div>
-    <section id="content" class="content clearfix">
-      {{ .Content }}
-    </section>
+  <section id="content" class="content clearfix">
+    {{ .Content }}
+  </section>
 </div>
 {{ end }}
