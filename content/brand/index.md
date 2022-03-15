@@ -8,19 +8,24 @@ images: []
 ---
 ## TBNH Brand Assets
 
-*Right click and save* to use images & 136 profile pictures
+<div class="d-grid gap-2 text-center">
+<a href="/brand/BrandGuide.pdf" download="BrandGuide.pdf">
+    <button type="button" class="btn btn-outline-info btn-lg"><i class="bi bi-file-earmark-pdf-fill"></i> BrandGuide.pdf </i></button>
+</a>
+</div>
 
-<div class="row py-2">
+<div class="row py-5">
 
 {{< figure src="/brand/hidden.png" class="col-lg-6 " width="100%"  >}}
 
 {{< figure src="/brand/previewHD.png" class="col-lg-6 " width="100%"  >}}
 
 </div>
+<p class="fs-6 text-center">"Right click and save"  to use <i class="bi bi-card-image"></i> & 136 profile pictures</p>
 
 ### Musics
 
-<div class="row py-2">
+<div class="row py-5">
 <div class="col-lg-6"><video preload="none" controls autoplay muted loop src="/videos/Musical-Loop-NFTs.mp4" width="100%" loading="lazy"></video></div>
 <div class="col-lg-6 ">
 
