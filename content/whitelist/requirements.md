@@ -9,11 +9,11 @@ images: []
 
 <div class="card">
 
-<h2 class="card-title">To get listed?</h2>
+<h2 class="card-title">To get listed...</h2>
 
 <div class="card-body">
 
-You need a wallet that supports NFTs. <small class="text-muted">The wallet that you use for opensea.io</small>
+First: You'll need a wallet that supports NFTs. <small class="text-muted">The wallet that you use for opensea.io</small>
 
 <div class="list-group">
   <a href="https://metamask.io/" target="_blank" class="list-group-item list-group-item-action">MetaMask <span class="badge bg-primary rounded-pill">Recommended</span></a>
@@ -22,7 +22,7 @@ You need a wallet that supports NFTs. <small class="text-muted">The wallet that 
   <a href="https://trustwallet.com/" target="_blank" class="list-group-item list-group-item-action">Trust Wallet</a>
 </div>
 
-### Do one of the following...
+### Then: Do one of the following...
 
 #### <i class="bi bi-alarm-fill"></i>
 

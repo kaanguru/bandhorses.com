@@ -3,9 +3,9 @@
   <div class="row">
     <h1>{{ .Title }}</h1>
     {{ $paginator := .Paginate (.Data.Pages) -}}
-    <nav class="nav flex-column ms-3">
+    <nav class="nav justify-content-center">
     {{ range $paginator.Pages -}}
-      <a class="nav-link" href="{{ .Permalink }}">{{ .Title }}</a>
+      <a class="nav-link ms-3" href="{{ .Permalink }}">{{ .Title }}</a>
     {{ end -}}
     </nav>
   </div>
