@@ -87,20 +87,20 @@ Every BandHorse Fren has its own page in **BandHorses Web3 dApp** <i class="bi b
 
   <div class="cntnr right">
  <div class="date text-primary">Dec, 2021</div>
- <i class="bi bi-check-circle-fill text-primary border-0 bg-transparent" style="padding-left: 0.9rem;" ></i>
- <div class="cntnt">
+ <i class="bi bi-check-circle-fill  border-0 bg-transparent" style="padding-left: 0.9rem;" ></i>
+ <div class="cntnt bg-success">
   <p>Announced</p>
-   <p><a  href="/tour-dates/#2021">2021 Research Phase</a></p>
+   <p><a class="text-secondary" href="/tour-dates/#2021">2021 Research Phase</a></p>
  </div>
   </div>
   
   <div class="cntnr left">
  <div class="date text-primary">Mar, 2022</div>
- <i class="bi bi-check-circle-fill text-primary border-0 bg-transparent" style="padding-top: 0.1rem;" ></i>
- <div class="cntnt">
+ <i class="bi bi-check-circle-fill text-secondary border-0 bg-transparent" style="padding-top: 0.1rem;" ></i>
+ <div class="cntnt bg-success">
    <p>Current Status</p>
    <p>
-  <a href="/tour-dates/#current-status">Running into veins</a>
+  <a class="text-secondary" href="/tour-dates/#current-status">Running into veins</a>
    </p>
  </div>
   </div>
