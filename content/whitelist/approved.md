@@ -1,6 +1,6 @@
 ---
-title: "Approved Winners"
-description: "Public Whitelist Winners"
+title: "Winners"
+description: "Public Approved Whitelist Winners"
 date: 2022-02-11T20:09:56+03:00
 lastmod: 2022-02-11T20:09:56+03:00
 draft: false

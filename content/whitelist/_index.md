@@ -23,4 +23,3 @@ We cheery pick our frenz who access the Whitelist and meet the requirements.
 | **Total Winners:**       | 0           |
 
 </div>
-
