@@ -36,6 +36,8 @@ First: You'll need a wallet that supports NFTs. <small class="text-muted">The wa
   * Remix some [BandHorses music](/brand/#musics)
   * Create art from [BandHorses images](/brand/#tbnh-brand-assets)
 
+and share them **on your own** social media accounts <i class="bi bi-instagram"></i> <i class="bi bi-twitter"></i> <i class="bi bi-youtube"></i> <i class="bi bi-pinterest"></i> <i class="bi bi-vimeo"></i>
+
 ### <i class="bi bi-twitter"></i>
 
 * Become An Influencer
