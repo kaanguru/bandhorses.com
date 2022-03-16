@@ -42,9 +42,9 @@ Staking is **More sustainable** 🌲 Validators don’t need energy-intensive co
 ## Core Values of Band Horses
 
 1. There will be **NOTHING FAKE**
-1. We are FULL transparent. **Power to Investors Community** by voting system.
+1. We are FULLY transparent. **Power to Investors Community** by voting system.
 1. We defend **Wild Animals** 🐴
-1. We Support Indipendent Musicians   🎵
+1. We Support Independent Musicians   🎵
 1. NFT holders will vote for organisations to donate
 
 <div class="row py-5">
