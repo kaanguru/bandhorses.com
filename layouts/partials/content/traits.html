@@ -3,6 +3,7 @@
 <div id="searches" class="container">
   <div class="row">
     <div class="col">
+      <p>66 Drummers</p>
       <div class="input-group mb-3">
         <span class="input-group-text"><label for="drummer-choice" >Check for your favorite</label></span>
         <input class="form-control" list="drummer-list" id="drummer-choice" name="drummer-choice" placeholder="Drummer Name"  />
@@ -10,10 +11,11 @@
       <datalist id="drummer-list">
         {{ range $key, $value := .Site.Data.favoriteDrummer }}
         <option value="{{ $value.name }}">
-        {{ end }}
-      </datalist>
-    </div>
-    <div class="col">
+          {{ end }}
+        </datalist>
+      </div>
+      <div class="col">
+      <p>100 Tattoos</p>
       <div class="input-group mb-3">
         <span class="input-group-text"><label for="drummer-choice">Check Tattoo</label></span>
         <input class="form-control" list="tattoo-list" id="tattoo-choice" name="tattoo-choice" placeholder="Brand & Musician Name"  />
