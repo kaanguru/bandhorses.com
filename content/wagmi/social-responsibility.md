@@ -54,7 +54,7 @@ Staking is **More sustainable** 🌲 Validators don’t need energy-intensive co
 
 Starting from 3rd quarter of 2023;
 
-Every month *7 BandHorses will be sold to collect capital for donations* Every month NFT holders will decide which Nature Conservation  organisations to donate.
+Every month *7 BandHorses will be sold to collect capital for donations* Every month NFT holders will decide which Nature Conservation  organizations to donate.
 
 </div>
 </div>
