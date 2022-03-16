@@ -3,7 +3,7 @@
   <div class="row">
     <h1>{{ .Title }}</h1>
     {{ $paginator := .Paginate (.Data.Pages) -}}
-    <nav class="nav justify-content-center">
+    <nav class="nav py-3 justify-content-center">
     {{ range $paginator.Pages -}}
       <a class="nav-link ms-3" href="{{ .Permalink }}">{{ .Title }}</a>
     {{ end -}}
