@@ -48,18 +48,18 @@
     "hugo-installer": "^3.1",
     "lazysizes": "^5.3",
     "markdownlint-cli2": "^0.4.0",
-    "postcss": "^8.4.8",
+    "postcss": "^8.4.12",
     "postcss-cli": "^9.1",
     "purgecss-whitelister": "^2.4",
     "quicklink": "^2.2.0",
     "shx": "^0.3",
     "sortboard": "^3.1.0",
-    "stylelint": "^14.5",
+    "stylelint": "^14.6",
     "stylelint-config-standard-scss": "^3.0"
 
   },
   "otherDependencies": {
-    "hugo": "0.94.1"
+    "hugo": "0.95.0"
   },
   "dependencies": {
     "yall-js": "^3.2.0"
