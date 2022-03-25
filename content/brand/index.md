@@ -6,7 +6,7 @@ lastmod: 2022-03-14T08:48:32+03:00
 draft: false
 images: []
 ---
-## TBNH Brand Assets
+## Band Horses Brand Assets
 
 <div class="d-grid gap-2 text-center">
 <a href="/brand/BrandGuide.pdf" download="BrandGuide.pdf">

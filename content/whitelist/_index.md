@@ -16,7 +16,7 @@ We cheery pick our frenz who access the Whitelist and meet the requirements.
 
 |     |
 |--------------------------|-------------|
-| **Avaible NFTs for WhiteList**  | 111 TBNH    |
+| **Avaible NFTs for WhiteList**  | 111 TBH    |
 | **Per Wallet Limit:**    | 2           |
 | **WhiteList Price:**     | 0.008 <img alt="ETH" style="width: 1.3rem" src="/icons/eth.svg" size="24">  + ⛽|
 | **Total User Entries:**  | 0           |

@@ -24,7 +24,7 @@ Although staking has already been introduced by the Beacon Chain, the Ethereum w
 </div>
 </div>
 
-#### Tapping Band Horses (TBNH) public minting starts; whenever the Ethereum Merge will be ready for the Mainnet release
+#### Tapping Band Horses (TBH) public minting starts; whenever the Ethereum Merge will be ready for the Mainnet release
 
 With the Beacon Chain up and running, work has begun on merging Mainnet with the new consensus layer. Mainnet will then be secured by staked ETH and far less energy intensive.
 

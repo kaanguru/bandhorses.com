@@ -41,7 +41,7 @@ and share them **on your own** social media accounts <i class="bi bi-instagram">
 ### <i class="bi bi-twitter"></i>
 
 * Become An Influencer
-  * Use [The hidden TBNH Fren image](/brand/#tbnh-brand-assets) as your profile picture
+  * Use [The hidden TBH Fren image](/brand/#tbnh-brand-assets) as your profile picture
   * Post a tweet about the project and mention us bandhorsesNFT. <small class="text-muted">Please share the URL of your tweet in discord tweet-proof channel</small>
 
 </div>
@@ -56,7 +56,7 @@ If you are whitelisted, you’ll be able to mint 3 weeks before the public sale 
 
 <small class="text-muted">The whitelisted investors will be able to mint </small>3 weeks prior presale
 
-<p ><a href="https://nftexplained.info/guide-to-nft-reveals-why-your-nft-looks-like-everyone-elses%ef%bf%bc/" rel="nofollow">Aquired NFTs will be hidden</a> After 4444 TBNHs minted , All NFTs will be Revealed !</p>
+<p ><a href="https://nftexplained.info/guide-to-nft-reveals-why-your-nft-looks-like-everyone-elses%ef%bf%bc/" rel="nofollow">Aquired NFTs will be hidden</a> After 4444 TBHs minted , All NFTs will be Revealed !</p>
 
 ---
 
