@@ -7,5 +7,5 @@
         a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
 }(window, document, "script");
 // Insert Twitter Pixel ID and Standard Event data below
-twq("init", "o88x2");
+twq("init", "o88zr");
 twq("track", "PageView");
