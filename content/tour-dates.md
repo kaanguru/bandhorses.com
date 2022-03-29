@@ -50,12 +50,12 @@ images: []
 
 ### BandFrenz
 
-Ultimate Goal is to build metaverse studio dApp called: [BandFrenz](https://bandfrenz.com)
+Ultimate Goal is to **build metaverse musical studio** called [BandFrenz](https://bandfrenz.com)
 
-**BandFrenz** is like *[SoundTrap](https://www.soundtrap.com/) from spotify*, but decentralized.
+**BandFrenz** is like *[SoundTrap](https://www.soundtrap.com/) from spotify*, but decentralized of it.
 
-All milestone dates are calculated estimated.
-Process can speed up with  additional team members.
+ <small class="text-muted">All milestone dates are calculated estimated.
+Process can speed up with  additional team members.</small>
 
 ## 2021
 
