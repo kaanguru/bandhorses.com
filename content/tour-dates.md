@@ -48,6 +48,12 @@ images: []
 </tbody>
 </table>
 
+### BandFrenz
+
+Ultimate Goal is to build metaverse studio dApp called: [BandFrenz](https://bandfrenz.com)
+
+**BandFrenz** is like *[SoundTrap](https://www.soundtrap.com/) from spotify*, but decentralized.
+
 All milestone dates are calculated estimated.
 Process can speed up with  additional team members.
 
