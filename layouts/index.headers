@@ -2,7 +2,7 @@
   Strict-Transport-Security: max-age=9000; includeSubDomains; preload
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 0
-  Content-Security-Policy: default-src 'self'  ; script-src 'self' 'sha512-S0l&#43;ZmO67j1k12I/EzWcbs3iNP&#43;jgqvE96WtJ4q0XIUdQyLjjUA9BJ6LMDCF8RXaPHnYuZC/dGj57iWtXT4O8A==' 'sha512-ZBOa&#43;GCpfUoj3AHjDI&#43;Zyngw3E2rg1RXmatYzkFVPdaOQtrsZnAZg4P0KrwgOUc3hluCze1RHigb6bvl1wAliQ==' 'sha512-z0mbHZoW/yE1euihrYRw1LsyEagjowuJWeBMjDLE4g7oarUOZ832QutJC8z&#43;Wz7wljwfXkhYErslad/Zl8vEHA==' 'https://static.ads-twitter.com/' ; img-src  'self'   data: ; font-src 'self' ; style-src  'self' 'unsafe-inline' ; base-uri 'self'; connect-src 'self'  ; object-src 'none'; worker-src 'none';
+  Content-Security-Policy: default-src 'self'  ; script-src 'self' 'sha512-S0l&#43;ZmO67j1k12I/EzWcbs3iNP&#43;jgqvE96WtJ4q0XIUdQyLjjUA9BJ6LMDCF8RXaPHnYuZC/dGj57iWtXT4O8A==' 'sha512-ZBOa&#43;GCpfUoj3AHjDI&#43;Zyngw3E2rg1RXmatYzkFVPdaOQtrsZnAZg4P0KrwgOUc3hluCze1RHigb6bvl1wAliQ==' 'sha512-z0mbHZoW/yE1euihrYRw1LsyEagjowuJWeBMjDLE4g7oarUOZ832QutJC8z&#43;Wz7wljwfXkhYErslad/Zl8vEHA==' 'https://static.ads-twitter.com' ; img-src  'self'   data: ; font-src 'self' ; style-src  'self' 'unsafe-inline' ; base-uri 'self'; connect-src 'self'  ; object-src 'none'; worker-src 'none';
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: same-origin
   Cache-Control: public, max-age=9000
