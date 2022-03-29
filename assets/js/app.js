@@ -16,6 +16,7 @@ import "./assets/js/traits";
 import "./assets/js/menu";
 import "./assets/js/scroll";
 import "./assets/js/twitter-code.js";
+import "./assets/js/yandex-code.js";
 
 import { startFlickerBackgroundInterval } from "./assets/js/flicker";
 
