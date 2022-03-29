@@ -2,8 +2,3 @@
 {{ partial "footer/esbuild" (dict "src" "js/app.js" "targetPath" "main.js" "load" "async" "transpile" false) -}}
 
 
-<!-- scroll to top -->
-{{/*  {{ $scrollInit := resources.Get "js/scroll.js" | js.Build | minify -}}
-<script> {{ $scrollInit.Content | safeJS }}</script>  */}}
-{{/*  {{ if or  .Page.IsHome (eq .Page.RelPermalink "/utility/rarity/") (eq .Page.RelPermalink "/utility/faq/")}}
-{{ end }}  */}}
