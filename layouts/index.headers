@@ -2,7 +2,7 @@
   Strict-Transport-Security: max-age=90000; includeSubDomains; preload
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 0
-  Content-Security-Policy: default-src 'self'  ; script-src 'self' 'sha512-uAZ9sZSFrnDmTzdT6nonGzC8Vv0S7knP0wD5cA1J5LXfgGblmiWMTteJ9iyA12MW5dv6yTENdygn31zrErhf3w==' 'sha512-ZYaX7cha/5FmL9wtqJjM12inx1IhEjmlHykIKmLIadBoyJUXlCMDKp/VpX75Vufvq2xnBMpKd2zHakMhDLeF4g==' 'sha512-zHBQXEQ+UaAyICxwaEA/RfbkTeuh6pbJH8REOTlXCaQtJZlItkWwU0yBIPIgyMxNfBeWrG9z2//jHaTzE+0yzQ=='  ; script-src-elem 'self' https://*.ads-twitter.com/ https://*.twitter.com/ https://*.yandex.ru/ ; img-src  'self' https://t.co/  data: ; font-src 'self' ; style-src  'self' 'unsafe-inline' ; base-uri 'self'; connect-src 'self' https://*.yandex.ru/ ; object-src 'none'; worker-src 'none';
+  Content-Security-Policy: default-src 'self'  ; script-src 'self' 'sha512-uAZ9sZSFrnDmTzdT6nonGzC8Vv0S7knP0wD5cA1J5LXfgGblmiWMTteJ9iyA12MW5dv6yTENdygn31zrErhf3w==' 'sha512-ZYaX7cha/5FmL9wtqJjM12inx1IhEjmlHykIKmLIadBoyJUXlCMDKp/VpX75Vufvq2xnBMpKd2zHakMhDLeF4g==' 'sha512-zHBQXEQ+UaAyICxwaEA/RfbkTeuh6pbJH8REOTlXCaQtJZlItkWwU0yBIPIgyMxNfBeWrG9z2//jHaTzE+0yzQ==' https://*.ads-twitter.com/ https://*.twitter.com/ https://*.yandex.ru/  ; script-src-elem 'self' https://*.ads-twitter.com/ https://*.twitter.com/ https://*.yandex.ru/ ; img-src  'self' https://t.co/  data: ; font-src 'self' ; style-src  'self' 'unsafe-inline' ; base-uri 'self'; connect-src 'self' https://*.yandex.ru/ ; object-src 'none'; worker-src 'none';
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: same-origin
   Cache-Control: public, max-age=90000
