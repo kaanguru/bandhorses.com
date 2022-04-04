@@ -4,13 +4,24 @@
 <footer class="footer bg-dark d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
   <div class="container">
     <div class="row ">
-      <div class="col-md-6 ">
-        <p class="text-primary">{{ .Site.Params.footer | safeHTML }}</p>
-        <h5  class="text-muted text-start text-white"> Wanna join? Follow us </h5>
-        <ul class="nav list-unstyled d-flex fs-2">
-          <li class="ms-3"><a class="text-muted text-white" href="https://links.bandhorses.com" ><i class="bi bi-link-45deg"></i></a></li>
-          <li class="ms-3"><a class="text-muted text-white" href="https://twitter.com/bandhorsesNFT"  target="_blank" ><i class="bi bi-twitter"></i></a></li>
-        </ul>
+      <div class="col-md-6">
+        <div class="row">
+          <p class="text-primary">{{ .Site.Params.footer | safeHTML }}</p>
+        </div>
+        <div class="row  d-flex align-items-start justify-content-start">
+ 
+            <h5  class="text-muted text-start text-white"> Wanna join? Follow us </h5>
+            <ul class="nav list-unstyled d-flex fs-2">
+              <li class="ms-3"><a class="text-muted text-white" href="https://links.bandhorses.com" ><i class="bi bi-link-45deg"></i></a></li>
+              <li class="ms-3"><a class="text-muted text-white" href="https://twitter.com/bandhorsesNFT"  target="_blank" ><i class="bi bi-twitter"></i></a></li>
+            </ul>
+            <p  class="text-muted text-start "> As seen on:
+            <a href="https://nftcalendar.io/event/tapping-band-horses/"  target="_blank" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <img src="/images/nft_calendar_logo.webp" alt="bandhorses logo">
+            </a>
+ </p>
+
+        </div>
       </div>
       <div class="col-md-6 d-flex align-items-end justify-content-end p-3">
         <ul class="nav list-unstyled d-flex pe-3">
