@@ -15,6 +15,9 @@ images: []
 | @Gizem******  | Marketing Support   | 0x4f27Ab1e649Ded87f9b79420b11B7c68d08E9432 |
 | @Oguzh******  | Design Support      | 0x344f11cfab1e727e7fca6412d6d8d4b6eaa45c71 |
 | safa*****     | Early Investor      | 0x4816cC13b1cF62709294A5a833BEc5d045De7EAC |
+| Maria****     |  Pinoy NFT Review   | 0x8655e0f3Ffb18136a59D0F4a5f7d2EFcD4475CF0 |
+| Dong*****     |  Pinoy NFT Review   | 0xad73ea4723E950117f3a97050D5A6Be7EC5Ad2d6 |
+| Edvn*****     |  Pinoy NFT Review   | 0x80232f84d446a088F8f190E772E9C0C48e397B71 |
 
 </div>
 

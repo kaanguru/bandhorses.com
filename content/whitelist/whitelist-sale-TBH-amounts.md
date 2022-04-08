@@ -15,6 +15,8 @@ images: []
 | @quot****   | Marketing      | 0x6486d9313aF9a0172D07760ED309EA608b16c97e | 1          |
 | @Gizem******| Marketing      | 0x4f27Ab1e649Ded87f9b79420b11B7c68d08E9432 | 4          |
 | @Oguzh******| Design         | 0x344f11cfab1e727e7fca6412d6d8d4b6eaa45c71 | 1          |
+| Archie******| FREE NFT winner| 0xEC3Bc7eB0B54A9dc6EBB6f1f7b75c86b7D9aE079 | 1          |
+| @Vajayj*****| FREE NFT winner| 0x530A32b811f021AffF1c5Ca44f721c157af75388 | 1          |
 
 </div>
 
