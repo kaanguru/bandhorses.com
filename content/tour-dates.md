@@ -39,11 +39,11 @@ images: []
 </tr>
 <tr>
 <td>2024</td>
-<td><a href="#2024--2025">4444 singing Whales</a></td>
+<td><a href="#2024--2025">4444 singing Whales and 4444 singing Birds</a></td>
 </tr>
 <tr>
 <td>2025</td>
-<td><a href="#2024--2025">4444 singing Birds</a></td>
+<td><a href="#bandfrenz">BandFrenz is on Metaverse</a></td>
 </tr>
 </tbody>
 </table>
@@ -177,10 +177,10 @@ Future implementations which we do not know yet but future generations will find
 - [x] Draw Horses
 - [x] Color Paletes for Vision Types
 - [x] Branding Guides
-- [ ] Web Art
-- [ ] Presentation Animations
-- [ ] Posts & Banners
-- [ ] Art for Newsletters
+- [x] Web Art
+- [x] Presentation Animations
+- [x] Posts & Banners
+- [ ] ~~Art for Newsletters~~
 
 </div>
 <div class="col bg-secondary text-light">
