@@ -18,6 +18,7 @@ images: []
 | Archie***| NFT winner | 0xEC3Bc7eB0B54A9dc6EBB6f1f7b75c86b7D9aE079 | 1   |
 | @Vajayj**| NFT winner | 0x530A32b811f021AffF1c5Ca44f721c157af75388 | 1   |
 | @spiral**| NFT winner | 0x5Ee53e194b83ABA554d7bb47428E23360cCd731e | 1   |
+| @Bruise**| NFT winner | 0x436F728445be33E9491024feDD2DC5b418d11bD5 | 1   |
 
 </div>
 
