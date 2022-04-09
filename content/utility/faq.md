@@ -6,6 +6,8 @@ draft: false
 
 {{% faq %}}
 
+## In Case of Emergency
+
 Couldn't find an answer? Do not hesitate to contact [support](https://tawk.to/bandhorses)
 
 <div class="d-grid">

@@ -52,9 +52,9 @@ and share them **on your own** social media accounts <i class="bi bi-instagram">
 * Your ETH address will get whitelisted for a whitelist sale.
 * The presale process will start after 111 Band Horses find their holders.
 
-If you are whitelisted, you’ll be able to mint 3 weeks before the public sale on Monday, April 18th at 6 AM UTC. You’ll be guaranteed to mint up to 2 NFTs. If you want to purchase a different ETH address, please let us know before starting the whitelist purchase from the discord support channel.
+If you are whitelisted, you can mint up to 2 NFTs on minting dApp. If you want to purchase a different ETH address, please let us know before starting the whitelist purchase from the discord support channel.
 
-<small class="text-muted">The whitelisted investors will be able to mint </small>3 weeks prior presale
+<small class="text-muted">The whitelisted investors are able to mint </small>3 weeks prior presale
 
 <p ><a href="https://nftexplained.info/guide-to-nft-reveals-why-your-nft-looks-like-everyone-elses%ef%bf%bc/" rel="nofollow">Aquired NFTs will be hidden</a> After 4444 TBHs minted , All NFTs will be Revealed !</p>
 
@@ -75,3 +75,13 @@ If you are whitelisted, you’ll be able to mint 3 weeks before the public sale 
 * **Rule #9:** Report scammers. You can help the stay community safe!
 * **Rule #10:** Beware of fake websites → Official Website: https://metamask.io/
 * **Rule #11:** Official Help → Support.MetaMask.io
+
+## In Case of Emergency
+
+Couldn't find an answer? Do not hesitate to contact [support](https://tawk.to/bandhorses)
+
+<div class="d-grid">
+  <button type="button" class="btn btn-info fs-4">
+    <a href="https://tawk.to/bandhorses" target="_blank">Chat With Muse</a>
+    </button>
+</div>

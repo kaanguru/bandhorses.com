@@ -12,7 +12,7 @@ images: []
 {{< figure src="/images/tokenomics-gra.webp" class="col-lg-6 " width="100%"  >}}
 <div class="col-lg-6 ">
 
-- After Minting 2222 TBH horses, All horses will reveal
+- After Minting 4444 TBH horses, All horses will reveal
 
 - Core Development and Donation Wallets can not sell their share until the specified date
 
