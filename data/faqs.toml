@@ -8,14 +8,14 @@ answer = "Band Horses musical phrases consist of 16  quarter-noted beats 🎵 �
 question = "Which Blockchain?"
 answer = "We are on the Ethereum Blockchain."
 [[faq]]
-question = "What is the mint price ?"
-answer = "0,01 ETH + gas fee ⛽ mint.bandhorses.com "
+question = "What is the whitelist mint price ?"
+answer = "0,008 ETH + gas fee ⛽ "
 [[faq]]
 question = "Is there a Whitelist ❔</br>How do I join it?"
 answer = "Yes we have a whitelist 📜  Check our <a href='/whitelist/'> Whitelist </a> page 📅"
 [[faq]]
 question = "Wen is the Public Sale ?"
-answer = "11 April Monday  🚀 Starting from Opensea 🌊"
+answer = "Jun 6 Monday  🚀 Starting from Opensea 🌊"
 [[faq]]
 question = "Why lazy minting?"
 answer = "Because lazy minting is more eco-friendly 🌍 Minting an NFT on a blockchain mainnet costs  energy ⚡  </br> Using a few advanced techniques, it's possible to defer the cost of minting an NFT until the moment it's sold to its first buyer</br> <strong>Minting just in time</strong> at the moment of purchase is often called lazy minting, and it has been adopted by marketplaces like OpenSea </br>  Full- Minting 4444 horses means too much energy ⚡ </br> Ethereum will switch to proof-of-stake consensus in ~Q2 2022 ⛽ Check<a href='https://ethmerge.com/'  target='_blank'> The Merge </a>for details  "
@@ -24,7 +24,7 @@ question = "Are Band Horses Rug Pull Protected? 💸"
 answer = "Band Horses media files are stored on IPFS with a proxy on <a href='https://www.pinata.cloud/' target='_blank'> pinata.cloud </a> ☁️ </br> IPFS solves this potentially catastrophic problem thanks to its use of content addressing. Adding data to IPFS produces a content identifier (CID) that is directly derived from the data itself, and links to the data in the IPFS network. Because a CID can only ever refer to one piece of content, we know that nobody can replace or alter the content without breaking the link </br>Using that CID, anyone can fetch a copy of its data from the IPFS network as long as at least one copy exists on the network — even if the original provider has disappeared. This makes CIDs perfect for NFT storage."
 [[faq]]
 question = "What about ownership?"
-answer = "If you hold BNH you hold commercial usage rights. Owners of each Band Horse possess commercial usage rights to their NFTs. Royalty Free use artwork anywhere"
+answer = "If you hold TBH you hold commercial usage rights. Owners of each Band Horse possess commercial usage rights to their NFTs. Royalty Free use artwork anywhere"
 [[faq]]
 question = "What Does Royalty Free Mean?"
 answer = "Usage rights are NOT restricted by time, location, or medium. The same image or music can be used over and over, in different projects and places, for as long as you want. It enables use for commercial purposes, and in social media, YouTube videos, billboards, adverts, and more..."
