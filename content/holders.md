@@ -8,9 +8,9 @@ images: []
 ---
 <div class="table-responsive">
 
-| **Name** | **Reason** | **Wallet address**                  | **Amount** |
-|----------|------------|-------------------------------------|------------|
-| @fast****| Early Invt | 0x40e22d90Bcce56e4118fbe4C4404481d3B752bD2 | 14  |
+| **Name** | **Reason** | **Wallet address**                      | **Amount** |
+|----------|------------|-----------------------------------------|------------|
+| @fast****| Early Invt | 0x147d2e6b5c25baE0a50B3b52178fd4b4e23Df54e | 14  |
 | safa*****| Angel Invt | 0x4816cC13b1cF62709294A5a833BEc5d045De7EAC | 44  |
 | @quot****| Marketing  | 0x6486d9313aF9a0172D07760ED309EA608b16c97e | 1   |
 | @Gizem***| Marketing  | 0x4f27Ab1e649Ded87f9b79420b11B7c68d08E9432 | 4   |
