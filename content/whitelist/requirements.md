@@ -78,10 +78,10 @@ If you are whitelisted, you can mint up to 2 NFTs on minting dApp. If you want t
 
 ## In Case of Emergency
 
-Couldn't find an answer? Do not hesitate to contact [support](https://tawk.to/bandhorses)
+Couldn't find an answer? Do not hesitate to contact [support](https://discord.com/invite/UyaJspUaSZ)
 
 <div class="d-grid">
   <button type="button" class="btn btn-info fs-4">
-    <a href="https://tawk.to/bandhorses" target="_blank">Chat With Muse</a>
+    <a href="https://discord.com/invite/UyaJspUaSZ" target="_blank">Chat in Discord <i class="bi bi-discord"></i></a>
     </button>
 </div>

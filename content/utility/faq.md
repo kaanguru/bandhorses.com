@@ -8,10 +8,10 @@ draft: false
 
 ## In Case of Emergency
 
-Couldn't find an answer? Do not hesitate to contact [support](https://tawk.to/bandhorses)
+Couldn't find an answer? Do not hesitate to contact [support](https://discord.com/invite/UyaJspUaSZ)
 
 <div class="d-grid">
   <button type="button" class="btn btn-info fs-4">
-    <a href="https://tawk.to/bandhorses" target="_blank">Chat With Muse</a>
+    <a href="https://discord.com/invite/UyaJspUaSZ" target="_blank">Chat on Discord <i class="bi bi-discord"></i></a>
     </button>
 </div>

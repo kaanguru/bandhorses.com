@@ -209,11 +209,11 @@ Future implementations which we do not know yet but future generations will find
 - [x] Generate JSON Metadata
 - [x] Upload Files To Eternal Home. (IPFS and pinata.cloud)
 - [x] Smart Contract publish on TestNET
-- [ ] Minting dApp
-- [ ] Low Gas Fee version of Smart Contract
-- [ ] Discord Bot
-- [ ] Waveform & MIDI visualization dApp
-- [ ] Main NET Deployment
+- [x] Minting dApp
+- [x] Low Gas Fee version of Smart Contract
+- [x] Discord Bot
+- [x] Waveform & MIDI visualization dApp
+- [x] Main NET Deployment
 - [ ] Guide.BandHorses.com
 - [ ] dApp v2 development
 - [ ] **NEW MILESSTONE** Update Horse Names Feature
@@ -228,10 +228,10 @@ Future implementations which we do not know yet but future generations will find
 - [x] Benefits Video
 - [x] WhitePaper
 - [x] links.BandHorses.com
-- [ ] WhiteList
-- [ ] Air Drop
-- [ ] Official Community Site
-- [ ] Discord
+- [x] WhiteList
+- [x] Air Drop
+- [x] Official Community Site
+- [x] Discord
 - [ ] Public Market Sales
 
 </div>
