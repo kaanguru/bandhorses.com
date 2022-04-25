@@ -17,7 +17,8 @@ images: []
 | @spiral** | NFT winner | *0x5Ee53e194b83ABA554d7bb47428E23360cCd731e* | 1   |
 | @Bruise** | NFT winner | *0x436F728445be33E9491024feDD2DC5b418d11bD5* | 1   |
 | @TonySh** | NFT winner | *0xCf1f40912286E26AC866343F74137b75C2A2f386* | 1   |
-| @JCdTor** | Marketing  | *0x511797Af5F1117D69270716846b72D145F6354C1*   | 3   |
+| @JCdTor** | Marketing  | *0x511797Af5F1117D69270716846b72D145F6354C1* | 3   |
+| @T_Hov5** | NFT winner |  0x656748dC5c48CeF2987D70853294F22a8E075f9A  | 1   |
 
 </div>
 
