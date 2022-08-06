@@ -9,7 +9,6 @@ listen();
 // lazy sizes for image loading
 import "lazysizes";
 import yall from "yall-js";
-
 // global alert
 import "./assets/js/alert";
 import "./assets/js/traits";

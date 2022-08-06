@@ -106,12 +106,12 @@ Every BandHorse Fren has its own page in **BandHorses Web3 dApp** <i class="bi b
   </div>
   
   <div class="cntnr right">
- <div class="date" >May, 2022</div>
- <i class="bi bi-hammer"></i>
- <div class="cntnt">
+ <div class="date text-primary" >May, 2022</div>
+ <i class="bi bi-check-circle-fill text-secondary border-0 bg-transparent"></i>
+ <div class="cntnt  bg-success">
    <p>Tapping Bandhorses</p>
    <p>
-  <a class="text-warning" href="/tour-dates/#tapping-bandhorses">4444 Fun Tapping Percussionists</a>
+  <a class="text-secondary" href="/tour-dates/#tapping-bandhorses">4444 Fun Tapping Percussionists</a>
    </p>
  </div>
   </div>
